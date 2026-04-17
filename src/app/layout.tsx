@@ -25,7 +25,7 @@ export default function RootLayout({
       dir="rtl"
       className={`${ibmPlexSansArabic.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-[family-name:var(--font-ibm-plex-arabic)]">
+      <body className="px-3 md:px-0 min-h-fu  ll flex flex-col font-[family-name:var(--font-ibm-plex-arabic)]">
         {children}
       </body>
     </html>

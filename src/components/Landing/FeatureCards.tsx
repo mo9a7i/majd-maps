@@ -11,7 +11,7 @@ export default function FeatureCards() {
   return (
     <section className="py-20">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
 
           <div className="aspect-square flex flex-col justify-center items-center bg-linear-to-br from-blue-950 to-blue-900 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow text-white">
             <ShieldCheck className="mb-4 h-7 w-7 md:h-12 md:w-12 lg:h-16 lg:w-16 text-white" strokeWidth={1.75} />

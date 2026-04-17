@@ -15,7 +15,7 @@ export default function Navbar({ variant = "landing", onSave, onOpenSidebar }: N
   return (
     <header
       className={`z-50 bg-background/80 backdrop-blur-md border-b border-border ${
-        isLanding ? "fixed top-0 inset-x-0" : "relative shrink-0"
+        isLanding ? "fixed top-0 inset-x-0 px-3 md:px-0" : "relative shrink-0"
       }`}
     >
       <div className="container mx-auto h-16 flex items-center justify-between">
