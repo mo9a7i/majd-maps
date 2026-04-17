@@ -1,11 +1,13 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 export default function Hero() {
     return (
         <section className="bg-white py-20">
-            <div className="container bg-[url('/dark_map.png')] bg-cover bg-center  text-white rounded-2xl overflow-hidden mx-auto text-center p-10 py-32 relative">
+            <div
+                className="container bg-cover bg-center text-white rounded-2xl overflow-hidden mx-auto text-center p-10 py-32 relative"
+                style={{ backgroundImage: `url(${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/dark_map.png)` }}
+            >
                 <div className="absolute inset-0 bg-linear-to-br from-blue-950 to-blue-800 opacity-30"></div>
                 <div className="relative z-10">
                     <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">خرائط تحترم خصوصيتك</h1>
