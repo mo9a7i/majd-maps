@@ -21,20 +21,24 @@
 - **shadcn/ui** — MIT License
 - **Tailwind CSS** — MIT License
 
+## رابط المستودع
+
+[github.com/mo9a7i/majd-maps](https://github.com/mo9a7i/majd-maps)
+
 ## كيف تشغله محلياً؟
 
 ```bash
-git clone https://github.com/6degrees/majd-maps
+git clone https://github.com/mo9a7i/majd-maps
 cd majd-maps
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 ثم افتح `http://localhost:3000` في المتصفح.
 
 ## المساهمة
 
-نرحب بأي مساهمة، سواء كانت تقريراً عن خطأ، أو اقتراح ميزة، أو تحسين في الكود. تواصل معنا عبر قسم Issues في المستودع.
+نرحب بأي مساهمة، سواء كانت تقريراً عن خطأ، أو اقتراح ميزة، أو تحسين في الكود. تواصل معنا عبر قسم [Issues](https://github.com/mo9a7i/majd-maps/issues) في المستودع.
 
 ---
 

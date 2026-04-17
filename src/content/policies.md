@@ -28,7 +28,7 @@
 
 ## اتصل بنا
 
-إذا كان لديك أي استفسار يتعلق بالخصوصية، تواصل مع فريق 6degrees technologies.
+إذا كان لديك أي استفسار يتعلق بالخصوصية، افتح تذكرة عبر [GitHub Issues](https://github.com/mo9a7i/majd-maps/issues).
 
 ---
 
