@@ -1,0 +1,1168 @@
+{
+  "version": "1.0.0",
+  "markers": [
+    {
+      "id": "a52e4775-83e5-4abc-a726-6ad1c16efeb0",
+      "lat": 61.178330792761855,
+      "lng": 117.62508235472737,
+      "label": "[Al Jawal (STC)] | RAT: LTE | siteID: 5860 | Bands: 7, 8, 42, 12 | Channels: 16668, 3121, 3542, 42581, 5058 | BWs: 1, 6, 16, 19, 11 MHz | First seen: 2011-09-20 | Last seen: 2011-09-23",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "ac6cf28c-7887-4ef0-bb07-668fe7ecc8a7",
+      "lat": -87.37711661388579,
+      "lng": -18.333248786749607,
+      "label": "[Al Jawal (STC)] | RAT: LTE | siteID: 34212 | Channels: 15231, 16977, 54384, 12628, 16333 | BWs: 10, 10, 17, 14, 5 MHz | First seen: 2011-01-25 | Last seen: 2011-10-04",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "44118ced-91ca-46a2-b874-0692bc2f62cd",
+      "lat": -80.97623511097763,
+      "lng": 148.6428286057627,
+      "label": "[Al Jawal (STC)] | RAT: LTE | siteID: 22095 | Bands: 42, 46, 43 | Channels: 43334, 52638, 41633, 44711, 23961 | BWs: 16, 6, 19, 8, 2 MHz | First seen: 2011-04-26 | Last seen: 2011-06-22",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "b93b8a0c-3790-43b2-b444-d1950b63f2c4",
+      "lat": 44.97215928889193,
+      "lng": 52.270600274047055,
+      "label": "[Al Jawal (STC)] | RAT: LTE | siteID: 4159 | Bands: 43, 46, 42, 3 | Channels: 45396, 30577, 49871, 41822, 1410 | BWs: 3, 11, 2, 19, 3 MHz | First seen: 2011-10-14 | Last seen: 2011-12-01",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "c657dc76-ec6c-43d4-b6e4-efcd942978ea",
+      "lat": -32.57999263554031,
+      "lng": 109.42451924702749,
+      "label": "[Al Jawal (STC)] | RAT: LTE | siteID: 24755 | Bands: 19, 7, 42 | Channels: 6123, 2964, 42905, 2790, 56786 | BWs: 18, 16, 15, 1, 4 MHz | First seen: 2011-09-23 | Last seen: 2011-04-10",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "da08c295-cde9-40d4-8954-b6b7bdb9d412",
+      "lat": 89.95278690308353,
+      "lng": -64.08192188453427,
+      "label": "[Al Jawal (STC)] | RAT: LTE | siteID: 8648 | Bands: 46, 9, 39, 24 | Channels: 54238, 59805, 3997, 38476, 7703 | BWs: 12, 2, 18, 18, 2 MHz | First seen: 2011-10-30 | Last seen: 2011-07-15",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "8e9ee33b-d564-4913-9c5d-dedab1db94d3",
+      "lat": 26.910596020335902,
+      "lng": -80.83719583298785,
+      "label": "[Al Jawal (STC)] | RAT: NR | siteID: 30707 | Bands: 23, 46 | Channels: 25716, 7504, 27184, 59047, 54035 | BWs: 19, 8, 14, 5, 1 MHz | First seen: 2011-10-31 | Last seen: 2011-03-27",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "118bac8b-c19e-4805-8f82-4667a1a297c4",
+      "lat": -19.171585742516044,
+      "lng": -160.8190214830052,
+      "label": "[Al Jawal (STC)] | RAT: NR | siteID: 7814 | Bands: 46, 3 | Channels: 51922, 48558, 26280, 1686, 27447 | BWs: 9, 4, 18, 10, 19 MHz | First seen: 2011-12-07 | Last seen: 2011-02-24",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "e6fec436-5fb9-4a31-9d8b-de6a91da7f0e",
+      "lat": 24.426114911417443,
+      "lng": -140.51076158260616,
+      "label": "[Al Jawal (STC)] | RAT: NR | siteID: 39437 | Bands: 4, 11, 43 | Channels: 14822, 1995, 21840, 4946, 45578 | BWs: 5, 0, 6, 13, 18 MHz | First seen: 2011-06-18 | Last seen: 2011-03-05",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "6e3a1417-7477-4f59-9083-fce056052e75",
+      "lat": -36.0644749342747,
+      "lng": 88.21089266401081,
+      "label": "[Al Jawal (STC)] | RAT: NR | siteID: 8239 | Bands: 46, 41, 35 | Channels: 52073, 18564, 19467, 40657, 36454 | BWs: 12, 15, 2, 4, 17 MHz | First seen: 2011-10-10 | Last seen: 2011-06-21",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "2b208613-dfc3-4afb-8a9e-c475726b2b62",
+      "lat": -2.102040038312552,
+      "lng": -69.95528192858467,
+      "label": "[Al Jawal (STC)] | RAT: NR | siteID: 9028 | Bands: 40 | Channels: 13281, 39412, 19784, 59588, 38661 | BWs: 19, 8, 11, 16, 0 MHz | First seen: 2011-10-23 | Last seen: 2011-02-09",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "364ebd70-44af-4d3f-8078-ab42e0317f06",
+      "lat": 58.91331782634478,
+      "lng": -65.1593643707507,
+      "label": "[Al Jawal (STC)] | RAT: NR | siteID: 9671 | Bands: 47 | Channels: 5589, 13154, 26374, 26850, 54737 | BWs: 13, 0, 12, 1, 11 MHz | First seen: 2011-07-23 | Last seen: 2011-02-02",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "db86f4e7-c07f-458b-b0b5-776ac1f39746",
+      "lat": -72.18263063300506,
+      "lng": 47.46096548112169,
+      "label": "[Al Jawal (STC)] | RAT: NR | siteID: 31752 | Bands: 41, 46 | Channels: 41458, 30524, 15974, 5664, 52533 | BWs: 1, 16, 9, 8, 4 MHz | First seen: 2011-01-27 | Last seen: 2011-08-01",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "dfb553b1-44b6-46df-a879-7cd2e32bf604",
+      "lat": 11.181769546161163,
+      "lng": -140.06098412484369,
+      "label": "[Al Jawal (STC)] | RAT: NR | siteID: 18405 | Bands: 46, 42 | Channels: 17037, 17868, 52510, 31495, 42073 | BWs: 9, 17, 9, 17, 12 MHz | First seen: 2011-01-03 | Last seen: 2011-03-16",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "47f3b2ae-88d5-41e1-b48f-d8b799bb038b",
+      "lat": -49.552458120988945,
+      "lng": -51.528912966430255,
+      "label": "[Al Jawal (STC)] | RAT: NR | siteID: 17235 | Bands: 43 | Channels: 34414, 26653, 25580, 44004, 56768 | BWs: 10, 18, 0, 2, 16 MHz | First seen: 2011-07-30 | Last seen: 2011-07-04",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "52c2ec3c-a36d-44a1-9d46-5c6d3bf3f682",
+      "lat": 15.719387574174576,
+      "lng": -77.38514202192442,
+      "label": "[Al Jawal (STC)] | RAT: UMTS | siteID: 19717 | Bands: 1, 46 | Channels: 210, 16642, 52303, 26494, 34027 | BWs: 0, 11, 10, 10, 3 MHz | First seen: 2011-12-14 | Last seen: 2011-10-28",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "6a2a1616-edcf-47c7-8f0a-1df450f8d926",
+      "lat": 10.791072907816314,
+      "lng": -94.31838078390581,
+      "label": "[Al Jawal (STC)] | RAT: UMTS | siteID: 18918 | Bands: 32, 3, 2, 42 | Channels: 10265, 1327, 1061, 43384, 32568 | BWs: 1, 1, 15, 16, 7 MHz | First seen: 2011-03-16 | Last seen: 2011-07-20",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "c9b1b9b0-5f40-4a6f-b195-7f1934b1a5e1",
+      "lat": -62.59063989010738,
+      "lng": 33.412488922719575,
+      "label": "[Al Jawal (STC)] | RAT: UMTS | siteID: 21712 | Bands: 43, 13, 44 | Channels: 44711, 5218, 58197, 15497, 46149 | BWs: 13, 5, 13, 8, 8 MHz | First seen: 2011-02-14 | Last seen: 2011-06-02",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "79f8c662-03df-4564-82ce-973788e1c048",
+      "lat": -44.79287694046769,
+      "lng": -110.99675833718317,
+      "label": "[Al Jawal (STC)] | RAT: UMTS | siteID: 47026 | Bands: 35, 46 | Channels: 11797, 36897, 36861, 50770, 12390 | BWs: 17, 19, 0, 19, 2 MHz | First seen: 2011-11-06 | Last seen: 2011-10-10",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "0b32f845-1c9c-40c2-9825-d12ba8c93583",
+      "lat": 28.131273094076988,
+      "lng": 67.70220832603195,
+      "label": "[Al Jawal (STC)] | RAT: UMTS | siteID: 30727 | Bands: 46, 28 | Channels: 51416, 16264, 46832, 53730, 9335 | BWs: 9, 11, 13, 7, 6 MHz | First seen: 2011-01-08 | Last seen: 2011-10-02",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "70614bc9-e173-47aa-976c-ee4226dc9004",
+      "lat": 71.08865397189614,
+      "lng": -33.41131100885673,
+      "label": "[Al Jawal (STC)] | RAT: UMTS | siteID: 43992 | Bands: 41, 3 | Channels: 41489, 17868, 1712, 15176, 1779 | BWs: 16, 2, 7, 15, 3 MHz | First seen: 2011-10-06 | Last seen: 2011-06-25",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "3820da49-39f0-4152-bd06-3d8a2dc5cfc1",
+      "lat": 29.495713530986798,
+      "lng": 15.346656314782365,
+      "label": "[Al Jawal (STC)] | RAT: UMTS | siteID: 28410 | Bands: 43, 4 | Channels: 59540, 44519, 18327, 1981, 59278 | BWs: 1, 2, 19, 13, 8 MHz | First seen: 2011-08-18 | Last seen: 2011-04-22",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "15412728-8fbb-4d50-970d-39b1fb399fb1",
+      "lat": 82.79250708026973,
+      "lng": 52.1596833733076,
+      "label": "[Al Jawal (STC)] | RAT: UMTS | siteID: 6399 | Bands: 48, 47, 41 | Channels: 33131, 55716, 55140, 33597, 41366 | BWs: 18, 11, 7, 18, 17 MHz | First seen: 2011-06-21 | Last seen: 2011-07-13",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "1adc4dd6-dfa4-4152-8afc-a4c4bb2c545a",
+      "lat": -13.607596818765415,
+      "lng": 158.007414575467,
+      "label": "[Al Jawal (STC)] | RAT: UMTS | siteID: 8627 | Bands: 33 | Channels: 27960, 17866, 15474, 36039, 59170 | BWs: 6, 13, 16, 2, 1 MHz | First seen: 2011-05-29 | Last seen: 2011-12-10",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "ca77dd2b-542c-4877-8f31-f43ca72156c0",
+      "lat": 45.247501617087366,
+      "lng": 150.2911475686595,
+      "label": "[Al Jawal (STC)] | RAT: UMTS | siteID: 1956 | Bands: 43, 22, 8, 40 | Channels: 44627, 6659, 56875, 3614, 39260 | BWs: 0, 10, 4, 12, 9 MHz | First seen: 2011-10-05 | Last seen: 2011-11-19",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "c826ed1b-e6a6-4191-9972-bcb45fe10160",
+      "lat": 87.2633691362078,
+      "lng": 161.88454380310813,
+      "label": "[Al Jawal (STC)] | RAT: UMTS | siteID: 1450 | Bands: 3, 46 | Channels: 30874, 16149, 26550, 1821, 49405 | BWs: 16, 16, 11, 12, 0 MHz | First seen: 2011-07-25 | Last seen: 2011-01-21",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "74a6d82a-bb4d-47a2-ae98-32a267934068",
+      "lat": 57.1256446419526,
+      "lng": 76.09331771198558,
+      "label": "[Al Jawal (STC)] | RAT: UMTS | siteID: 6411 | Bands: 27, 46, 28 | Channels: 9192, 50499, 9383, 9467, 20874 | BWs: 5, 14, 16, 11, 1 MHz | First seen: 2011-10-15 | Last seen: 2011-03-06",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "6f9208a7-4305-42c3-8b31-2aa976f56de7",
+      "lat": -11.696365486592114,
+      "lng": 114.70475471247896,
+      "label": "[Al Jawal (STC)] | RAT: UMTS | siteID: 13603 | Bands: 46, 48, 2 | Channels: 49437, 55822, 28547, 803, 28253 | BWs: 5, 10, 6, 9, 19 MHz | First seen: 2011-04-07 | Last seen: 2011-07-07",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "37b98fd0-06fc-4a46-a057-be17fc6d7bde",
+      "lat": 34.29734402288081,
+      "lng": -95.85857173350541,
+      "label": "[Al Jawal (STC)] | RAT: UMTS | siteID: 17123 | Bands: 17, 22 | Channels: 5760, 59289, 22772, 7001, 23565 | BWs: 17, 8, 13, 15, 3 MHz | First seen: 2011-12-31 | Last seen: 2011-07-13",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "fdfdfa34-1a8e-462e-ab9c-75ee4e5c78cd",
+      "lat": -30.350913584823445,
+      "lng": 57.25411537803251,
+      "label": "[Al Jawal (STC)] | RAT: GSM | siteID: 25861 | Channels: 10819, 29924, 28641, 25596, 31825 | BWs: 9, 1, 9, 8, 11 MHz | First seen: 2011-11-08 | Last seen: 2011-05-04",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "b62b6fda-82ae-4c9e-bda4-ad17df74d59b",
+      "lat": 67.49966828802839,
+      "lng": 145.07200778412846,
+      "label": "[Al Jawal (STC)] | RAT: GSM | siteID: 7846 | Bands: 40, 42, 36 | Channels: 34339, 33714, 39251, 42926, 37248 | BWs: 13, 12, 6, 7, 10 MHz | First seen: 2011-11-11 | Last seen: 2011-02-13",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "766516b0-8689-47b0-8c46-86f500b7f10d",
+      "lat": 79.60430173614131,
+      "lng": 48.410532959887945,
+      "label": "[Al Jawal (STC)] | RAT: GSM | siteID: 8016 | Bands: 3, 46, 26 | Channels: 20247, 23379, 1723, 50331, 8805 | BWs: 13, 7, 0, 5, 7 MHz | First seen: 2011-10-13 | Last seen: 2011-02-20",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "23e41081-66a8-4120-9f7d-4fbb40b9521c",
+      "lat": -67.9223403139471,
+      "lng": 166.97945271714283,
+      "label": "[Al Jawal (STC)] | RAT: GSM | siteID: 10456 | Bands: 46, 33, 43 | Channels: 51960, 33461, 12221, 36036, 43767 | BWs: 2, 8, 4, 2, 9 MHz | First seen: 2011-12-03 | Last seen: 2011-08-16",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "26345052-4f8c-42ff-8572-6e10e068674f",
+      "lat": -75.03329999139223,
+      "lng": 131.7964615009426,
+      "label": "[Al Jawal (STC)] | RAT: GSM | siteID: 20422 | Bands: 38, 5, 19 | Channels: 13678, 37947, 13922, 2591, 6030 | BWs: 5, 3, 16, 13, 8 MHz | First seen: 2011-11-12 | Last seen: 2011-09-18",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "09969fef-5ebd-476b-9fc2-455bfb3ab239",
+      "lat": 66.77979353322442,
+      "lng": -68.91429745095161,
+      "label": "[Al Jawal (STC)] | RAT: GSM | siteID: 42620 | Bands: 42, 9, 47 | Channels: 32384, 43556, 3967, 14553, 54934 | BWs: 19, 10, 5, 11, 6 MHz | First seen: 2011-04-20 | Last seen: 2011-11-06",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "83f8b2d4-7adb-480b-996e-e302cd3c35df",
+      "lat": -48.61333091277848,
+      "lng": -109.03204501093182,
+      "label": "[Mobily] | RAT: LTE | siteID: 28558 | Bands: 1, 46 | Channels: 401, 57630, 11549, 51873, 57447 | BWs: 9, 10, 8, 6, 18 MHz | First seen: 2011-06-25 | Last seen: 2011-04-25",
+      "color": "#22c55e"
+    },
+    {
+      "id": "8d2e0079-1187-4ce6-bd3e-1a0eb01a166b",
+      "lat": -67.53636503098235,
+      "lng": -42.5912339643607,
+      "label": "[Mobily] | RAT: LTE | siteID: 6968 | Bands: 48, 38, 8 | Channels: 56094, 38017, 22786, 10668, 3453 | BWs: 10, 3, 11, 6, 7 MHz | First seen: 2011-01-01 | Last seen: 2011-06-12",
+      "color": "#22c55e"
+    },
+    {
+      "id": "5907e7b1-0569-440f-ab5b-3bbe68e35899",
+      "lat": -19.000223893349613,
+      "lng": 43.60196583482167,
+      "label": "[Mobily] | RAT: LTE | siteID: 33317 | Bands: 12, 46, 26 | Channels: 23863, 5035, 54071, 25679, 9009 | BWs: 16, 10, 14, 10, 4 MHz | First seen: 2011-12-04 | Last seen: 2011-07-30",
+      "color": "#22c55e"
+    },
+    {
+      "id": "2a098ccb-3714-4491-8bb3-b1e396fdd417",
+      "lat": 30.220682011720598,
+      "lng": 58.60463784692,
+      "label": "[Mobily] | RAT: NR | siteID: 46904 | Bands: 8 | Channels: 10475, 59192, 28034, 59816, 3585 | BWs: 12, 0, 4, 6, 7 MHz | First seen: 2011-12-06 | Last seen: 2011-07-04",
+      "color": "#22c55e"
+    },
+    {
+      "id": "f0ca7019-ef9a-4dfa-abfc-d29f49d11d64",
+      "lat": -64.9449272449252,
+      "lng": -92.84712987095213,
+      "label": "[Mobily] | RAT: NR | siteID: 49770 | Bands: 42, 41, 46 | Channels: 43030, 39776, 48465, 49427, 51343 | BWs: 3, 18, 16, 9, 2 MHz | First seen: 2011-01-01 | Last seen: 2011-01-08",
+      "color": "#22c55e"
+    },
+    {
+      "id": "65a6e815-fffe-433e-9cff-0571afe7da6b",
+      "lat": -15.489675396539369,
+      "lng": -93.33375898115912,
+      "label": "[Mobily] | RAT: NR | siteID: 11735 | Bands: 40, 8, 46 | Channels: 39397, 57428, 3766, 17327, 53633 | BWs: 19, 3, 0, 7, 5 MHz | First seen: 2011-05-21 | Last seen: 2011-02-09",
+      "color": "#22c55e"
+    },
+    {
+      "id": "def6c702-6b30-469d-a0e6-a2314a3e50b3",
+      "lat": -77.5115838757622,
+      "lng": 63.712067651384785,
+      "label": "[Mobily] | RAT: NR | siteID: 44532 | Bands: 5, 26, 2, 7 | Channels: 2518, 57192, 8743, 680, 2964 | BWs: 10, 2, 4, 11, 0 MHz | First seen: 2011-03-19 | Last seen: 2011-10-24",
+      "color": "#22c55e"
+    },
+    {
+      "id": "330cde75-d1de-4101-8f8c-15900d5d4f7d",
+      "lat": 75.47293583769573,
+      "lng": 110.32047095897,
+      "label": "[Mobily] | RAT: NR | siteID: 12105 | Bands: 22 | Channels: 30426, 7217, 26358, 24656, 11400 | BWs: 19, 5, 6, 0, 14 MHz | First seen: 2011-01-26 | Last seen: 2011-08-20",
+      "color": "#22c55e"
+    },
+    {
+      "id": "b85695cf-454d-4fdb-825b-41dc4ea16e37",
+      "lat": 45.117589276297885,
+      "lng": -137.84713868061823,
+      "label": "[Mobily] | RAT: NR | siteID: 22905 | Bands: 46 | Channels: 48637, 35432, 50992, 28446, 35601 | BWs: 4, 15, 10, 0, 2 MHz | First seen: 2011-04-22 | Last seen: 2011-11-29",
+      "color": "#22c55e"
+    },
+    {
+      "id": "2e9a3f97-9681-466a-ac86-c484fe85c108",
+      "lat": 73.20153059876898,
+      "lng": 74.46357416221406,
+      "label": "[Mobily] | RAT: NR | siteID: 35412 | Bands: 3, 32 | Channels: 17645, 12256, 1856, 10160, 23413 | BWs: 15, 5, 3, 15, 5 MHz | First seen: 2011-09-30 | Last seen: 2011-11-29",
+      "color": "#22c55e"
+    },
+    {
+      "id": "553981d7-8507-443a-b5b2-d0589c6c1488",
+      "lat": -87.80698597549517,
+      "lng": -96.47938908480381,
+      "label": "[Mobily] | RAT: NR | siteID: 44209 | Bands: 46, 38, 37, 26 | Channels: 51756, 15882, 38050, 37695, 8929 | BWs: 17, 10, 0, 16, 3 MHz | First seen: 2011-09-13 | Last seen: 2011-11-05",
+      "color": "#22c55e"
+    },
+    {
+      "id": "92f06e96-744f-49b8-aa90-13f73cc921bb",
+      "lat": -3.248411550521155,
+      "lng": 43.18971389942922,
+      "label": "[Mobily] | RAT: UMTS | siteID: 5015 | Bands: 32, 10 | Channels: 9966, 4381, 58860, 35423, 58553 | BWs: 14, 15, 3, 19, 16 MHz | First seen: 2011-10-26 | Last seen: 2011-02-03",
+      "color": "#22c55e"
+    },
+    {
+      "id": "c58bfab0-4304-4766-babd-be97051ac3b9",
+      "lat": 54.88659511152036,
+      "lng": 33.570706477029404,
+      "label": "[Mobily] | RAT: UMTS | siteID: 45563 | Bands: 46 | Channels: 51495, 11155, 57744, 35742, 17619 | BWs: 8, 17, 6, 14, 15 MHz | First seen: 2011-12-30 | Last seen: 2011-05-13",
+      "color": "#22c55e"
+    },
+    {
+      "id": "c03ae1e5-cdf2-46e1-ba2d-67d6b014f90d",
+      "lat": 72.95230164082307,
+      "lng": -165.62360303435446,
+      "label": "[Mobily] | RAT: UMTS | siteID: 8338 | Bands: 46, 7, 42 | Channels: 48136, 28303, 3189, 42365, 26771 | BWs: 5, 7, 11, 15, 17 MHz | First seen: 2011-11-25 | Last seen: 2011-09-27",
+      "color": "#22c55e"
+    },
+    {
+      "id": "fe365945-ccde-4cd1-8f73-1afda78ac3a1",
+      "lat": -38.941330711952475,
+      "lng": 62.18720297208395,
+      "label": "[Mobily] | RAT: UMTS | siteID: 1348 | Bands: 36, 39 | Channels: 37062, 26137, 14972, 31495, 38570 | BWs: 4, 19, 9, 3, 4 MHz | First seen: 2011-12-19 | Last seen: 2011-09-08",
+      "color": "#22c55e"
+    },
+    {
+      "id": "ae8107a5-2e86-43d4-8afe-44514d416095",
+      "lat": -71.2731883325589,
+      "lng": -40.61480890534631,
+      "label": "[Mobily] | RAT: UMTS | siteID: 12918 | Bands: 3 | Channels: 59185, 15870, 30142, 20170, 1750 | BWs: 4, 13, 14, 17, 5 MHz | First seen: 2011-03-02 | Last seen: 2011-05-06",
+      "color": "#22c55e"
+    },
+    {
+      "id": "f3e333ae-bf84-455a-bca6-1fcf0965c8cc",
+      "lat": 14.16619970000113,
+      "lng": 20.23914155780949,
+      "label": "[Mobily] | RAT: GSM | siteID: 1929 | Bands: 42 | Channels: 11093, 43451, 22478, 13022, 59253 | BWs: 1, 8, 11, 4, 10 MHz | First seen: 2011-11-18 | Last seen: 2011-05-19",
+      "color": "#22c55e"
+    },
+    {
+      "id": "07173601-5075-4126-a383-c7e14e6738dc",
+      "lat": 0.17241945009040194,
+      "lng": -99.80031021846264,
+      "label": "[Mobily] | RAT: GSM | siteID: 22699 | Bands: 43, 46, 36, 39 | Channels: 44788, 52518, 37049, 11091, 38574 | BWs: 1, 7, 9, 5, 0 MHz | First seen: 2011-02-08 | Last seen: 2011-09-19",
+      "color": "#22c55e"
+    },
+    {
+      "id": "cc771c26-13c0-4a5b-9b0f-fe482551c0d5",
+      "lat": 68.2639317231231,
+      "lng": 39.709570236453004,
+      "label": "[Mobily] | RAT: GSM | siteID: 15699 | Bands: 46, 28 | Channels: 57194, 25817, 51464, 10747, 9361 | BWs: 10, 12, 17, 11, 6 MHz | First seen: 2011-12-19 | Last seen: 2011-01-07",
+      "color": "#22c55e"
+    },
+    {
+      "id": "6e7697dc-37a2-4e38-bbd8-2b108d1eb07b",
+      "lat": 88.66019461822975,
+      "lng": -72.0760366886868,
+      "label": "[Mobily] | RAT: GSM | siteID: 47174 | Bands: 42, 43, 48 | Channels: 42488, 26136, 11856, 45168, 56120 | BWs: 13, 2, 13, 0, 4 MHz | First seen: 2011-09-15 | Last seen: 2011-10-31",
+      "color": "#22c55e"
+    },
+    {
+      "id": "20094580-6ae0-4d09-b895-4c8e09cba9dc",
+      "lat": 56.227151153251164,
+      "lng": -115.00230651344339,
+      "label": "[Zain SA] | RAT: LTE | siteID: 38014 | Bands: 38, 46 | Channels: 37859, 18458, 11553, 49761, 19788 | BWs: 16, 14, 11, 1, 18 MHz | First seen: 2012-01-01 | Last seen: 2011-01-27",
+      "color": "#ef4444"
+    },
+    {
+      "id": "25f2f7fd-7643-4df4-8a4a-a1876f377a80",
+      "lat": 45.77519979472552,
+      "lng": 90.34401650449927,
+      "label": "[Zain SA] | RAT: LTE | siteID: 34846 | Bands: 25, 1, 7 | Channels: 8052, 156, 33278, 32338, 2930 | BWs: 5, 11, 10, 1, 19 MHz | First seen: 2011-08-26 | Last seen: 2011-10-09",
+      "color": "#ef4444"
+    },
+    {
+      "id": "5c48add2-851d-4b49-ad26-74656c998a63",
+      "lat": 61.99087884936601,
+      "lng": 24.261342403868724,
+      "label": "[Zain SA] | RAT: LTE | siteID: 17320 | Bands: 46, 47, 44 | Channels: 5548, 52654, 54853, 52690, 46382 | BWs: 10, 7, 9, 12, 15 MHz | First seen: 2011-06-01 | Last seen: 2011-10-12",
+      "color": "#ef4444"
+    },
+    {
+      "id": "d11c1b52-7bd8-44a3-9b65-0909347d2b43",
+      "lat": -66.27766537684224,
+      "lng": 127.55742137383379,
+      "label": "[Zain SA] | RAT: LTE | siteID: 2805 | Bands: 47, 7, 42, 46 | Channels: 54965, 3198, 42530, 24764, 49261 | BWs: 5, 12, 6, 1, 17 MHz | First seen: 2011-11-27 | Last seen: 2011-11-08",
+      "color": "#ef4444"
+    },
+    {
+      "id": "35c8efcb-6d48-4510-878c-3c402d7d1bf9",
+      "lat": 15.971947958626231,
+      "lng": 110.52283471957932,
+      "label": "[Zain SA] | RAT: LTE | siteID: 1610 | Bands: 1, 40 | Channels: 542, 32830, 56941, 12422, 39387 | BWs: 7, 8, 18, 10, 11 MHz | First seen: 2011-06-30 | Last seen: 2011-05-30",
+      "color": "#ef4444"
+    },
+    {
+      "id": "06834cb0-e99f-461d-bc9d-05efe32a392e",
+      "lat": 38.056980819533386,
+      "lng": -127.93942334374123,
+      "label": "[Zain SA] | RAT: LTE | siteID: 45176 | Bands: 46, 10 | Channels: 50383, 4325, 18933, 20456, 23725 | BWs: 11, 9, 18, 6, 5 MHz | First seen: 2011-09-12 | Last seen: 2011-12-13",
+      "color": "#ef4444"
+    },
+    {
+      "id": "ae0eed58-cd17-4a94-a568-324b657b848f",
+      "lat": -63.52596697686516,
+      "lng": -93.5589372896697,
+      "label": "[Zain SA] | RAT: LTE | siteID: 5773 | Bands: 22, 41, 42 | Channels: 34297, 7098, 40449, 28396, 42125 | BWs: 6, 13, 19, 0, 10 MHz | First seen: 2011-02-11 | Last seen: 2011-11-26",
+      "color": "#ef4444"
+    },
+    {
+      "id": "c52e4457-9f6b-424b-9d1b-a7fbaac321d9",
+      "lat": 22.656271917717646,
+      "lng": -135.70579889542375,
+      "label": "[Zain SA] | RAT: LTE | siteID: 46702 | Bands: 11, 44 | Channels: 4760, 46351, 27274, 32593, 57925 | BWs: 10, 6, 4, 6, 19 MHz | First seen: 2011-06-06 | Last seen: 2011-02-19",
+      "color": "#ef4444"
+    },
+    {
+      "id": "fd47992a-c192-4cb0-aae6-bf3e4c2fb8c0",
+      "lat": 13.229372959499415,
+      "lng": -159.05201101939008,
+      "label": "[Zain SA] | RAT: NR | siteID: 41963 | Bands: 42, 46 | Channels: 42698, 43050, 10649, 53307, 57118 | BWs: 18, 6, 8, 18, 6 MHz | First seen: 2011-02-18 | Last seen: 2011-01-24",
+      "color": "#ef4444"
+    },
+    {
+      "id": "31573057-678e-4396-9efc-da527de3fe61",
+      "lat": 34.507525356551625,
+      "lng": -138.02674279742348,
+      "label": "[Zain SA] | RAT: NR | siteID: 7583 | Bands: 43 | Channels: 25577, 23890, 44637, 26951, 43698 | BWs: 0, 6, 13, 3, 7 MHz | First seen: 2011-06-12 | Last seen: 2011-03-23",
+      "color": "#ef4444"
+    },
+    {
+      "id": "0795b966-17a3-4531-9dfb-fa7cecc4315e",
+      "lat": -47.6467451768101,
+      "lng": -33.0237528274088,
+      "label": "[Zain SA] | RAT: NR | siteID: 43668 | Bands: 26, 48 | Channels: 8705, 23346, 35997, 10680, 55827 | BWs: 15, 11, 13, 10, 12 MHz | First seen: 2011-03-28 | Last seen: 2011-05-27",
+      "color": "#ef4444"
+    },
+    {
+      "id": "6ff17073-fe75-4e65-81f3-f9096a4fa570",
+      "lat": 26.645426441538817,
+      "lng": 121.8422205631099,
+      "label": "[Zain SA] | RAT: NR | siteID: 20164 | Bands: 43, 41 | Channels: 23545, 44015, 16723, 14088, 39804 | BWs: 15, 16, 16, 19, 3 MHz | First seen: 2011-11-23 | Last seen: 2011-10-31",
+      "color": "#ef4444"
+    },
+    {
+      "id": "8ae82593-824f-4400-b63e-a285da82b21a",
+      "lat": 38.72626045111842,
+      "lng": -165.492908896745,
+      "label": "[Zain SA] | RAT: NR | siteID: 14798 | Bands: 46, 35 | Channels: 53861, 36885, 13765, 47653, 57392 | BWs: 15, 3, 1, 12, 5 MHz | First seen: 2011-10-08 | Last seen: 2011-02-01",
+      "color": "#ef4444"
+    },
+    {
+      "id": "6b8244c1-4e1e-4b4f-b697-4e10359a7db5",
+      "lat": -84.75343297436487,
+      "lng": 70.355017563577,
+      "label": "[Zain SA] | RAT: NR | siteID: 44746 | Bands: 36, 41, 44 | Channels: 37072, 23780, 34875, 40734, 46572 | BWs: 14, 13, 5, 4, 0 MHz | First seen: 2011-06-22 | Last seen: 2011-09-21",
+      "color": "#ef4444"
+    },
+    {
+      "id": "a28769a7-5033-45db-8f11-83054449b285",
+      "lat": -41.861600260311064,
+      "lng": -74.50841972534468,
+      "label": "[Zain SA] | RAT: UMTS | siteID: 40515 | Bands: 3, 28 | Channels: 23249, 1859, 27217, 56909, 9389 | BWs: 2, 8, 11, 15, 16 MHz | First seen: 2011-10-21 | Last seen: 2011-08-14",
+      "color": "#ef4444"
+    },
+    {
+      "id": "14770783-1fea-4978-99d5-eac7ce4889e8",
+      "lat": -38.809238080678625,
+      "lng": 139.60229889183114,
+      "label": "[Zain SA] | RAT: GSM | siteID: 31848 | Bands: 1, 32, 48, 42 | Channels: 501, 10014, 15809, 55499, 42388 | BWs: 16, 11, 4, 3, 13 MHz | First seen: 2011-01-10 | Last seen: 2011-03-27",
+      "color": "#ef4444"
+    },
+    {
+      "id": "649999c7-dc09-420b-8fc8-14b3b32210ad",
+      "lat": 41.16381223715788,
+      "lng": 116.96234499016957,
+      "label": "[Zain SA] | RAT: GSM | siteID: 19113 | Bands: 7, 48 | Channels: 27555, 25516, 3192, 3392, 55306 | BWs: 18, 16, 0, 15, 13 MHz | First seen: 2011-07-03 | Last seen: 2011-12-18",
+      "color": "#ef4444"
+    },
+    {
+      "id": "da689f33-f76e-4e02-a890-6f5b23ec48ec",
+      "lat": 85.99971958939022,
+      "lng": -23.443130004283006,
+      "label": "[Zain SA] | RAT: GSM | siteID: 31680 | Bands: 44, 48 | Channels: 11288, 16255, 45889, 23485, 55321 | BWs: 15, 2, 16, 4, 0 MHz | First seen: 2011-09-11 | Last seen: 2011-01-19",
+      "color": "#ef4444"
+    },
+    {
+      "id": "d7f1e392-8b42-4083-8204-da6610b9c752",
+      "lat": 33.43662691190245,
+      "lng": -139.82390878806945,
+      "label": "[Zain SA] | RAT: GSM | siteID: 3902 | Bands: 36 | Channels: 18804, 32546, 28900, 37516, 35237 | BWs: 16, 8, 5, 9, 15 MHz | First seen: 2011-02-20 | Last seen: 2011-03-15",
+      "color": "#ef4444"
+    },
+    {
+      "id": "c7ebebd1-5185-4c3f-b241-c9f84ff78536",
+      "lat": 9.378513405224098,
+      "lng": -169.43552697048773,
+      "label": "[Zain SA] | RAT: GSM | siteID: 29257 | Bands: 23, 43 | Channels: 7596, 17082, 59339, 45020, 43883 | BWs: 13, 6, 6, 15, 3 MHz | First seen: 2011-07-22 | Last seen: 2011-06-01",
+      "color": "#ef4444"
+    },
+    {
+      "id": "23e94e6d-b1de-40b2-a02b-8ff7fd9a7f76",
+      "lat": -88.78608009839047,
+      "lng": 19.0837852587525,
+      "label": "[Zain SA] | RAT: GSM | siteID: 4217 | Bands: 47, 10, 26 | Channels: 54997, 4248, 8788, 35694, 28866 | BWs: 9, 8, 15, 19, 0 MHz | First seen: 2011-11-26 | Last seen: 2011-08-01",
+      "color": "#ef4444"
+    },
+    {
+      "id": "adee6a6c-b9ef-45a1-a3ab-68f4583dddf1",
+      "lat": 44.5010238133996,
+      "lng": -80.67038230794128,
+      "label": "[Zain SA] | RAT: GSM | siteID: 36580 | Bands: 46, 7, 3, 4 | Channels: 48168, 53473, 2946, 1580, 2178 | BWs: 17, 18, 4, 16, 5 MHz | First seen: 2011-12-05 | Last seen: 2011-06-20",
+      "color": "#ef4444"
+    },
+    {
+      "id": "2eb684f0-396e-4a25-bbfc-702cc9b4d259",
+      "lat": 62.01084047851161,
+      "lng": 84.67014085800879,
+      "label": "[Zain SA] | RAT: GSM | siteID: 32667 | Bands: 25, 46 | Channels: 29305, 11676, 33206, 8425, 50061 | BWs: 7, 11, 15, 12, 4 MHz | First seen: 2011-10-26 | Last seen: 2011-05-02",
+      "color": "#ef4444"
+    },
+    {
+      "id": "a48cfee1-2654-41c8-a08a-7f0c7224820a",
+      "lat": 89.11707218009484,
+      "lng": -53.23272086780699,
+      "label": "[Zain SA] | RAT: GSM | siteID: 37934 | Bands: 46, 48 | Channels: 53797, 5416, 18252, 25643, 56341 | BWs: 7, 4, 2, 8, 0 MHz | First seen: 2011-11-01 | Last seen: 2011-11-29",
+      "color": "#ef4444"
+    },
+    {
+      "id": "93d97dec-3626-4b77-8d78-6ea7c197ddad",
+      "lat": -80.07528389486751,
+      "lng": -38.90561811367908,
+      "label": "[Zain SA] | RAT: GSM | siteID: 24757 | Bands: 32, 4, 2 | Channels: 10198, 34784, 2395, 59320, 1161 | BWs: 6, 1, 17, 11, 0 MHz | First seen: 2011-08-21 | Last seen: 2011-06-01",
+      "color": "#ef4444"
+    },
+    {
+      "id": "30fb055c-3846-4191-ba20-0ce8c47e9d11",
+      "lat": 37.81448484442631,
+      "lng": -39.27054698105641,
+      "label": "[Zain SA] | RAT: GSM | siteID: 34190 | Bands: 3, 22 | Channels: 57274, 26142, 1374, 6883, 23989 | BWs: 2, 0, 17, 8, 18 MHz | First seen: 2011-10-20 | Last seen: 2011-08-24",
+      "color": "#ef4444"
+    },
+    {
+      "id": "380a2636-b594-428d-8a4d-9f567f83977d",
+      "lat": -13.204921470855155,
+      "lng": 109.39529719201596,
+      "label": "[Zain SA] | RAT: GSM | siteID: 18078 | Bands: 48 | Channels: 19205, 28513, 30992, 30167, 56496 | BWs: 6, 11, 18, 12, 15 MHz | First seen: 2011-07-31 | Last seen: 2011-05-31",
+      "color": "#ef4444"
+    },
+    {
+      "id": "831678ee-8406-43fa-b436-96e5a3b23b1c",
+      "lat": -0.5788998291693588,
+      "lng": 59.97342746482707,
+      "label": "[Zain SA] | RAT: GSM | siteID: 13682 | Bands: 46, 18 | Channels: 49173, 51075, 54118, 5952, 23564 | BWs: 5, 13, 10, 2, 16 MHz | First seen: 2011-07-10 | Last seen: 2011-01-21",
+      "color": "#ef4444"
+    },
+    {
+      "id": "25d677b5-3585-465f-a0ba-d97705a164ab",
+      "lat": -19.638874547341416,
+      "lng": -99.349637941369,
+      "label": "[Zain SA] | RAT: GSM | siteID: 5918 | Bands: 1, 44 | Channels: 2, 46424, 28004, 27993, 21171 | BWs: 3, 1, 9, 5, 6 MHz | First seen: 2011-02-05 | Last seen: 2011-05-03",
+      "color": "#ef4444"
+    },
+    {
+      "id": "9cb7e021-ca42-4745-8e73-d9934b85a868",
+      "lat": 70.65803266726473,
+      "lng": -82.641020048455,
+      "label": "[Zain SA] | RAT: GSM | siteID: 34236 | Bands: 42, 35, 26 | Channels: 43278, 36740, 8738, 30861, 11361 | BWs: 1, 12, 5, 16, 2 MHz | First seen: 2011-12-24 | Last seen: 2011-10-07",
+      "color": "#ef4444"
+    },
+    {
+      "id": "4b7dec90-2d74-4c4a-b7f1-23164853d704",
+      "lat": -21.015535907432636,
+      "lng": 52.27072253809982,
+      "label": "[Roam] | RAT: LTE | siteID: 18446 | Bands: 10, 40, 3, 46, 2 | Channels: 4598, 39411, 1709, 53647, 608 | BWs: 6, 11, 16, 12, 3 MHz | First seen: 2011-01-02 | Last seen: 2011-06-13",
+      "color": "#a855f7"
+    },
+    {
+      "id": "3ca58b17-d502-4c42-ad5d-5553cade88fe",
+      "lat": 89.51684820655694,
+      "lng": -3.8986689038981126,
+      "label": "[Roam] | RAT: LTE | siteID: 38686 | Bands: 41 | Channels: 31038, 19996, 16505, 25472, 40462 | BWs: 18, 16, 15, 1, 17 MHz | First seen: 2011-04-22 | Last seen: 2011-09-20",
+      "color": "#a855f7"
+    },
+    {
+      "id": "e0058f92-766c-4c5d-b0e7-99b2dfad00ff",
+      "lat": 74.88884356891472,
+      "lng": 27.965127227501938,
+      "label": "[Roam] | RAT: NR | siteID: 18519 | Bands: 40, 46, 22 | Channels: 39253, 12857, 18790, 49906, 6887 | BWs: 14, 10, 1, 11, 6 MHz | First seen: 2011-12-24 | Last seen: 2011-08-15",
+      "color": "#a855f7"
+    },
+    {
+      "id": "9744bba9-cf69-4f8b-bf7f-668f858d3e6b",
+      "lat": -54.758077454611566,
+      "lng": -30.875406270642998,
+      "label": "[Roam] | RAT: NR | siteID: 47496 | Bands: 46, 43 | Channels: 47409, 14403, 44058, 30891, 12148 | BWs: 6, 6, 3, 14, 3 MHz | First seen: 2011-02-18 | Last seen: 2011-10-15",
+      "color": "#a855f7"
+    },
+    {
+      "id": "e72f41d5-1671-40a1-8114-d71702bcc8f8",
+      "lat": 22.005114150681763,
+      "lng": -51.571743723971935,
+      "label": "[Roam] | RAT: NR | siteID: 37120 | Bands: 46, 35 | Channels: 11543, 50078, 23712, 36428, 30604 | BWs: 13, 15, 3, 4, 10 MHz | First seen: 2011-06-11 | Last seen: 2011-07-04",
+      "color": "#a855f7"
+    },
+    {
+      "id": "670d1fe4-218e-44be-a8f2-deb3e94c4e03",
+      "lat": 74.684933515106,
+      "lng": -146.12380312869334,
+      "label": "[Roam] | RAT: NR | siteID: 7654 | Bands: 46, 1 | Channels: 47267, 34054, 49718, 590, 31346 | BWs: 2, 14, 11, 14, 11 MHz | First seen: 2011-04-24 | Last seen: 2011-03-10",
+      "color": "#a855f7"
+    },
+    {
+      "id": "59f171e7-3c36-4a3d-a0c1-d8c0159a5c5f",
+      "lat": 87.83518346489748,
+      "lng": 174.3523988723241,
+      "label": "[Roam] | RAT: NR | siteID: 14150 | Bands: 46, 25, 40, 44 | Channels: 52095, 8596, 39000, 46234, 24245 | BWs: 2, 16, 4, 19, 14 MHz | First seen: 2011-10-11 | Last seen: 2011-01-07",
+      "color": "#a855f7"
+    },
+    {
+      "id": "be92a24e-4bf0-4abf-90ad-01e7f4bcea78",
+      "lat": -80.60825284090512,
+      "lng": -6.931389044581238,
+      "label": "[Roam] | RAT: NR | siteID: 25486 | Bands: 27, 3, 22 | Channels: 11821, 9135, 21235, 1501, 6877 | BWs: 9, 1, 17, 16, 5 MHz | First seen: 2011-04-28 | Last seen: 2011-09-19",
+      "color": "#a855f7"
+    },
+    {
+      "id": "467bd501-e2dd-42ba-807f-ea2480a84f1e",
+      "lat": -55.93652331333752,
+      "lng": -23.92099210155439,
+      "label": "[Roam] | RAT: NR | siteID: 25100 | Bands: 46, 36, 24 | Channels: 52008, 37219, 28232, 7721, 21245 | BWs: 14, 7, 1, 1, 9 MHz | First seen: 2011-12-15 | Last seen: 2011-04-19",
+      "color": "#a855f7"
+    },
+    {
+      "id": "e9387ca5-2c6a-4d0b-810a-43ea45741228",
+      "lat": -18.66686446700035,
+      "lng": -102.27136926981865,
+      "label": "[Roam] | RAT: NR | siteID: 40145 | Bands: 47, 22, 46, 43 | Channels: 54852, 7344, 53646, 53092, 45248 | BWs: 8, 6, 1, 18, 12 MHz | First seen: 2011-12-10 | Last seen: 2011-08-31",
+      "color": "#a855f7"
+    },
+    {
+      "id": "ed1fdeb5-aa9b-4953-aad7-cca0b3587b31",
+      "lat": 14.703640407294913,
+      "lng": 23.189414561181792,
+      "label": "[Roam] | RAT: NR | siteID: 4149 | Bands: 46, 42 | Channels: 53259, 27299, 51818, 43307, 15015 | BWs: 15, 15, 0, 6, 14 MHz | First seen: 2011-02-13 | Last seen: 2011-03-02",
+      "color": "#a855f7"
+    },
+    {
+      "id": "06baf421-91b2-4a04-9462-66a1a198a8d1",
+      "lat": -82.41064312192668,
+      "lng": -6.185103656910087,
+      "label": "[Roam] | RAT: NR | siteID: 47537 | Bands: 22, 46 | Channels: 23984, 19562, 18318, 6710, 50987 | BWs: 0, 7, 3, 7, 14 MHz | First seen: 2011-06-03 | Last seen: 2011-01-01",
+      "color": "#a855f7"
+    },
+    {
+      "id": "1ee1a9e4-ff26-4e7d-a9c6-d9656f994d4a",
+      "lat": -54.45466210207621,
+      "lng": -158.95271700764124,
+      "label": "[Roam] | RAT: UMTS | siteID: 49716 | Bands: 42, 43, 41, 46 | Channels: 26207, 42092, 43924, 40269, 51065 | BWs: 0, 17, 8, 8, 4 MHz | First seen: 2011-11-18 | Last seen: 2011-09-30",
+      "color": "#a855f7"
+    },
+    {
+      "id": "6b7d19ef-094b-4afd-9e41-e5a0bea3da3c",
+      "lat": -50.93670704531456,
+      "lng": 130.30388238766622,
+      "label": "[Roam] | RAT: UMTS | siteID: 24200 | Bands: 43 | Channels: 11379, 14791, 27380, 29405, 43829 | BWs: 8, 17, 14, 18, 6 MHz | First seen: 2011-12-17 | Last seen: 2011-04-16",
+      "color": "#a855f7"
+    },
+    {
+      "id": "fe5cf58a-19e5-4ddd-b02a-d0b902c398f6",
+      "lat": -31.893506026607923,
+      "lng": 88.68132470909133,
+      "label": "[Roam] | RAT: UMTS | siteID: 46024 | Bands: 4 | Channels: 17571, 28520, 2066, 13640, 21834 | BWs: 10, 10, 11, 15, 0 MHz | First seen: 2011-12-01 | Last seen: 2011-01-19",
+      "color": "#a855f7"
+    },
+    {
+      "id": "9fe61f31-7646-46f6-b797-6b1852259b65",
+      "lat": 28.938059871966054,
+      "lng": 55.80337449322802,
+      "label": "[Roam] | RAT: UMTS | siteID: 27801 | Bands: 43, 10, 23, 38 | Channels: 45580, 4703, 30467, 7653, 38066 | BWs: 10, 13, 8, 9, 6 MHz | First seen: 2011-08-06 | Last seen: 2011-09-12",
+      "color": "#a855f7"
+    },
+    {
+      "id": "81933581-c77e-438f-9ad6-00148e53d883",
+      "lat": 77.05775715518423,
+      "lng": -7.321996187518238,
+      "label": "[Roam] | RAT: UMTS | siteID: 18273 | Bands: 9, 46 | Channels: 20107, 4120, 51998, 54375, 47812 | BWs: 8, 15, 7, 0, 15 MHz | First seen: 2011-01-24 | Last seen: 2011-06-02",
+      "color": "#a855f7"
+    },
+    {
+      "id": "3ed1b616-acfc-4d06-83ba-075872804aa0",
+      "lat": -41.74937493216407,
+      "lng": 175.55725614138706,
+      "label": "[Roam] | RAT: GSM | siteID: 10470 | Bands: 44, 46, 42 | Channels: 45955, 52549, 43573, 43552, 52165 | BWs: 11, 16, 3, 12, 15 MHz | First seen: 2011-12-16 | Last seen: 2011-07-31",
+      "color": "#a855f7"
+    },
+    {
+      "id": "70dfaa27-d184-47ec-8917-1891124c5a5a",
+      "lat": 62.045509076602784,
+      "lng": 130.04971513708924,
+      "label": "[Roam] | RAT: GSM | siteID: 7485 | Bands: 35, 14, 22 | Channels: 18458, 36518, 5307, 6697, 34697 | BWs: 4, 13, 15, 13, 1 MHz | First seen: 2011-02-23 | Last seen: 2011-11-15",
+      "color": "#a855f7"
+    },
+    {
+      "id": "94f2191c-22ac-47f6-9a87-660651d2ce2c",
+      "lat": 64.97223389878693,
+      "lng": 82.71846854063814,
+      "label": "[Roam] | RAT: GSM | siteID: 30339 | Bands: 46 | Channels: 24825, 30403, 57469, 20750, 50716 | BWs: 19, 1, 12, 12, 12 MHz | First seen: 2011-04-04 | Last seen: 2011-05-11",
+      "color": "#a855f7"
+    },
+    {
+      "id": "5e40e88b-d90a-4410-a9f6-1fee5796a1b8",
+      "lat": 61.083409567495245,
+      "lng": -57.85761225606143,
+      "label": "[Roam] | RAT: GSM | siteID: 11783 | Bands: 48, 23, 8 | Channels: 56019, 15568, 7645, 3676, 26368 | BWs: 10, 18, 14, 3, 11 MHz | First seen: 2011-09-14 | Last seen: 2011-05-16",
+      "color": "#a855f7"
+    },
+    {
+      "id": "e6aa86c6-f8c2-4e53-be02-a2cfc8279798",
+      "lat": -77.4444426221944,
+      "lng": -127.98579672490456,
+      "label": "[Roam] | RAT: GSM | siteID: 14892 | Bands: 42 | Channels: 31595, 34769, 43141, 31350, 59560 | BWs: 9, 16, 0, 5, 5 MHz | First seen: 2011-09-08 | Last seen: 2011-03-25",
+      "color": "#a855f7"
+    },
+    {
+      "id": "709b30a9-24b6-40ea-b8b5-65a31c5af517",
+      "lat": -40.72072849519566,
+      "lng": -64.98317603129445,
+      "label": "[Roam] | RAT: GSM | siteID: 10462 | Bands: 4, 44, 32 | Channels: 2012, 31649, 46072, 10203, 21207 | BWs: 1, 18, 9, 7, 15 MHz | First seen: 2011-09-03 | Last seen: 2011-08-23",
+      "color": "#a855f7"
+    },
+    {
+      "id": "25069a78-4b88-4594-ba89-fcafb368ab96",
+      "lat": -20.451736833130994,
+      "lng": 35.99580692493606,
+      "label": "[Roam] | RAT: GSM | siteID: 29528 | Bands: 26, 43 | Channels: 19300, 24805, 8932, 44777, 15864 | BWs: 10, 4, 4, 1, 17 MHz | First seen: 2011-12-21 | Last seen: 2011-05-03",
+      "color": "#a855f7"
+    },
+    {
+      "id": "736d35e4-964e-4c0a-b337-a138256de939",
+      "lat": -4.937728594750695,
+      "lng": 26.379110686736936,
+      "label": "[Roam] | RAT: GSM | siteID: 31326 | Bands: 46, 41, 42 | Channels: 15820, 50291, 23483, 40085, 43118 | BWs: 12, 3, 14, 2, 9 MHz | First seen: 2011-11-20 | Last seen: 2011-06-05",
+      "color": "#a855f7"
+    },
+    {
+      "id": "b849b291-1451-4e4f-8235-0dc777eb86f3",
+      "lat": -16.10874447224228,
+      "lng": 2.4891073238597983,
+      "label": "[Roam] | RAT: GSM | siteID: 33879 | Bands: 46, 42 | Channels: 48229, 42492, 17825, 51886, 31943 | BWs: 5, 11, 9, 12, 17 MHz | First seen: 2011-10-25 | Last seen: 2011-11-19",
+      "color": "#a855f7"
+    },
+    {
+      "id": "926cf46b-0593-406d-b399-648268827e7a",
+      "lat": -88.73287998275936,
+      "lng": 137.8098906589124,
+      "label": "[Roam] | RAT: GSM | siteID: 38022 | Bands: 41, 48, 1 | Channels: 14550, 40281, 56272, 41529, 293 | BWs: 14, 1, 19, 12, 14 MHz | First seen: 2011-06-20 | Last seen: 2011-09-12",
+      "color": "#a855f7"
+    },
+    {
+      "id": "41ca24b8-fe0c-4e06-b862-f8c9da09aaf5",
+      "lat": -67.17191036669439,
+      "lng": -134.66236574236711,
+      "label": "[Roam] | RAT: GSM | siteID: 17106 | Bands: 46, 9 | Channels: 50680, 59137, 26565, 24417, 3972 | BWs: 18, 9, 2, 11, 15 MHz | First seen: 2011-12-07 | Last seen: 2011-02-18",
+      "color": "#a855f7"
+    },
+    {
+      "id": "b3502ba6-f7ae-473a-8540-dc9d66a97005",
+      "lat": 70.40957053569605,
+      "lng": 77.03144913930996,
+      "label": "[Roam] | RAT: GSM | siteID: 30845 | Bands: 41, 10, 19 | Channels: 40433, 26017, 17896, 4324, 6003 | BWs: 12, 18, 8, 4, 12 MHz | First seen: 2011-11-25 | Last seen: 2011-12-10",
+      "color": "#a855f7"
+    },
+    {
+      "id": "67402070-f14d-425f-89a3-c58c2b6fd01a",
+      "lat": -43.386842497767134,
+      "lng": 95.30192399925423,
+      "label": "[Roam] | RAT: GSM | siteID: 46825 | Bands: 10, 32, 43 | Channels: 4412, 10290, 19784, 24363, 44680 | BWs: 16, 0, 7, 10, 3 MHz | First seen: 2011-12-03 | Last seen: 2011-03-18",
+      "color": "#a855f7"
+    },
+    {
+      "id": "071e31fc-2d4c-4e88-9b5f-262f15fea8c2",
+      "lat": -64.617246089395,
+      "lng": -26.9945027080295,
+      "label": "[420-9] | RAT: LTE | siteID: 1568 | Bands: 14 | Channels: 33554, 5281, 10362, 30790, 35734 | BWs: 14, 17, 2, 3, 10 MHz | First seen: 2011-08-02 | Last seen: 2011-08-23",
+      "color": "#6b7280"
+    },
+    {
+      "id": "52b3bf79-6b78-4afd-8c7a-7b09b1548a21",
+      "lat": -84.50487576047885,
+      "lng": -42.634218649654116,
+      "label": "[420-9] | RAT: NR | siteID: 49876 | Bands: 40, 28, 10 | Channels: 38985, 57011, 9550, 20401, 4441 | BWs: 12, 7, 5, 7, 7 MHz | First seen: 2011-01-25 | Last seen: 2011-11-20",
+      "color": "#6b7280"
+    },
+    {
+      "id": "165f995f-4364-4a78-aaa9-4e58f03f3712",
+      "lat": -20.798566543659646,
+      "lng": 1.1403991972308347,
+      "label": "[420-9] | RAT: NR | siteID: 37886 | Bands: 48, 35, 46, 42 | Channels: 56367, 36725, 52425, 4998, 43262 | BWs: 19, 5, 16, 8, 0 MHz | First seen: 2011-09-13 | Last seen: 2011-01-09",
+      "color": "#6b7280"
+    },
+    {
+      "id": "8bd6b780-d27d-4d5f-b2bf-34225c24afa0",
+      "lat": 9.179864624193357,
+      "lng": -72.9691319708304,
+      "label": "[420-9] | RAT: NR | siteID: 29798 | Bands: 48, 46, 41 | Channels: 32144, 56547, 17153, 49449, 40148 | BWs: 6, 6, 2, 18, 1 MHz | First seen: 2011-12-12 | Last seen: 2011-01-07",
+      "color": "#6b7280"
+    },
+    {
+      "id": "894c442c-280e-4a72-822c-90ce095ca437",
+      "lat": 41.444456910490025,
+      "lng": 161.5034753859656,
+      "label": "[420-9] | RAT: NR | siteID: 49377 | Bands: 46, 43 | Channels: 35724, 31866, 52093, 27255, 45232 | BWs: 16, 9, 11, 2, 1 MHz | First seen: 2011-01-02 | Last seen: 2011-01-02",
+      "color": "#6b7280"
+    },
+    {
+      "id": "8f394770-0afe-4c61-98db-2daad5500d9f",
+      "lat": 9.552402605270274,
+      "lng": 29.826891468417756,
+      "label": "[420-9] | RAT: NR | siteID: 22589 | Bands: 46, 10 | Channels: 35938, 24488, 46791, 14505, 4395 | BWs: 6, 7, 19, 6, 17 MHz | First seen: 2011-06-20 | Last seen: 2011-08-07",
+      "color": "#6b7280"
+    },
+    {
+      "id": "313a4c1a-f9b4-4c70-9741-2a3d65b17dc1",
+      "lat": 76.63733849552402,
+      "lng": -81.40551939796478,
+      "label": "[420-9] | RAT: NR | siteID: 48556 | Bands: 41 | Channels: 12028, 41447, 34892, 28617, 12809 | BWs: 14, 7, 5, 10, 6 MHz | First seen: 2011-09-05 | Last seen: 2011-01-23",
+      "color": "#6b7280"
+    },
+    {
+      "id": "00a79e9a-8317-4023-a5f1-323b84835e91",
+      "lat": -3.380856441933048,
+      "lng": -130.45184497618737,
+      "label": "[420-9] | RAT: NR | siteID: 22719 | Bands: 46, 44, 7 | Channels: 51558, 7446, 26443, 45640, 3242 | BWs: 4, 9, 12, 6, 0 MHz | First seen: 2011-11-12 | Last seen: 2011-11-20",
+      "color": "#6b7280"
+    },
+    {
+      "id": "99882de8-3fc2-4820-8c09-daf2133a7604",
+      "lat": -34.07586537107946,
+      "lng": -160.0692386156344,
+      "label": "[420-9] | RAT: UMTS | siteID: 48174 | Bands: 46, 47 | Channels: 24385, 22612, 48641, 13506, 54724 | BWs: 15, 9, 14, 5, 8 MHz | First seen: 2011-11-10 | Last seen: 2011-12-26",
+      "color": "#6b7280"
+    },
+    {
+      "id": "77329357-9c00-45ff-9aaa-0a26824e2a6f",
+      "lat": 83.06331785104057,
+      "lng": -100.73367051134676,
+      "label": "[420-9] | RAT: UMTS | siteID: 808 | Bands: 46, 30, 28 | Channels: 52035, 9836, 10558, 23102, 9539 | BWs: 13, 1, 14, 4, 19 MHz | First seen: 2011-08-21 | Last seen: 2011-06-11",
+      "color": "#6b7280"
+    },
+    {
+      "id": "f2995e8e-0a22-4718-9306-2150c74386b7",
+      "lat": -48.167701024496125,
+      "lng": 16.767267905019054,
+      "label": "[420-9] | RAT: UMTS | siteID: 43263 | Bands: 40, 38, 48, 46 | Channels: 39511, 38091, 55653, 57108, 53167 | BWs: 11, 3, 14, 10, 2 MHz | First seen: 2011-04-06 | Last seen: 2011-01-03",
+      "color": "#6b7280"
+    },
+    {
+      "id": "4e4031ba-551a-4ae0-84a4-d9a2149e24ce",
+      "lat": 72.71149565811297,
+      "lng": 51.583493371022314,
+      "label": "[420-9] | RAT: UMTS | siteID: 13944 | Bands: 3 | Channels: 58770, 19267, 29999, 13706, 1713 | BWs: 19, 3, 10, 7, 14 MHz | First seen: 2011-03-15 | Last seen: 2011-12-08",
+      "color": "#6b7280"
+    },
+    {
+      "id": "3eb3d1f0-dddf-4db6-9fe7-9313d0b6b370",
+      "lat": 5.415349134177731,
+      "lng": 69.92188591451806,
+      "label": "[420-9] | RAT: UMTS | siteID: 35275 | Bands: 7, 36, 44 | Channels: 2806, 37244, 32328, 18706, 46109 | BWs: 12, 3, 15, 6, 10 MHz | First seen: 2011-09-18 | Last seen: 2011-09-15",
+      "color": "#6b7280"
+    },
+    {
+      "id": "a6b780b8-c6a4-444a-803a-6ffcd726ce45",
+      "lat": 48.556806676336286,
+      "lng": -119.77325867983052,
+      "label": "[420-9] | RAT: UMTS | siteID: 14380 | Bands: 46, 42 | Channels: 22408, 52651, 18090, 43089, 27330 | BWs: 18, 16, 4, 17, 7 MHz | First seen: 2011-04-21 | Last seen: 2011-12-08",
+      "color": "#6b7280"
+    },
+    {
+      "id": "e928c800-3e72-4787-9031-3979e254ae7b",
+      "lat": -14.036960312334585,
+      "lng": 57.538870966879585,
+      "label": "[420-9] | RAT: UMTS | siteID: 6432 | Bands: 25, 4 | Channels: 8392, 22075, 25763, 23294, 2363 | BWs: 0, 14, 5, 11, 9 MHz | First seen: 2011-11-13 | Last seen: 2011-01-22",
+      "color": "#6b7280"
+    },
+    {
+      "id": "3f56bbac-467c-4309-b4ec-7b0acbdcb6f0",
+      "lat": 71.18207846560227,
+      "lng": 110.08162704865163,
+      "label": "[420-9] | RAT: UMTS | siteID: 36629 | Bands: 36 | Channels: 27102, 36985, 14777, 18912, 23091 | BWs: 7, 14, 0, 7, 2 MHz | First seen: 2011-01-12 | Last seen: 2011-09-01",
+      "color": "#6b7280"
+    },
+    {
+      "id": "9f09242c-b97f-4355-8638-fe4a7167a6fe",
+      "lat": -6.914186165915098,
+      "lng": -103.3913096518109,
+      "label": "[420-9] | RAT: GSM | siteID: 43010 | Bands: 47 | Channels: 24906, 54413, 24069, 55124, 20222 | BWs: 12, 18, 9, 16, 7 MHz | First seen: 2011-11-28 | Last seen: 2011-05-08",
+      "color": "#6b7280"
+    },
+    {
+      "id": "d78115ff-adfe-40b8-bc69-7c2415aa5414",
+      "lat": 54.5079418061534,
+      "lng": -71.06194614404785,
+      "label": "[420-9] | RAT: GSM | siteID: 29847 | Bands: 46, 42 | Channels: 28736, 50418, 25711, 42358, 19278 | BWs: 17, 8, 6, 14, 16 MHz | First seen: 2011-04-20 | Last seen: 2011-03-03",
+      "color": "#6b7280"
+    },
+    {
+      "id": "0ee9c174-03ae-41aa-99d6-aa5e0fda66d7",
+      "lat": 56.140384269249736,
+      "lng": -76.99837704187848,
+      "label": "[420-9] | RAT: GSM | siteID: 20107 | Bands: 46, 38 | Channels: 52315, 38242, 12052, 26257, 56984 | BWs: 16, 3, 9, 9, 5 MHz | First seen: 2011-02-22 | Last seen: 2011-09-26",
+      "color": "#6b7280"
+    },
+    {
+      "id": "c396d5d7-db5a-455e-887d-539854cf8477",
+      "lat": 55.61277062359102,
+      "lng": 40.74906783203886,
+      "label": "[Provider 212] | RAT: LTE | siteID: 49747 | Bands: 46, 36 | Channels: 47805, 32408, 20496, 10398, 37298 | BWs: 10, 14, 16, 18, 1 MHz | First seen: 2011-07-24 | Last seen: 2011-06-30",
+      "color": "#6b7280"
+    },
+    {
+      "id": "152df574-5150-421d-b4a1-1bbc80137a4e",
+      "lat": -86.26296224845177,
+      "lng": 2.789309926664572,
+      "label": "[Provider 212] | RAT: LTE | siteID: 10988 | Bands: 41, 34, 46 | Channels: 31895, 39806, 36281, 52915, 39706 | BWs: 18, 13, 17, 7, 13 MHz | First seen: 2011-11-24 | Last seen: 2011-05-04",
+      "color": "#6b7280"
+    },
+    {
+      "id": "011bcb39-431b-40d8-8d23-0f22296271c6",
+      "lat": 29.18294694694309,
+      "lng": 106.30744924131066,
+      "label": "[Provider 212] | RAT: LTE | siteID: 44904 | Bands: 47, 43, 46, 7 | Channels: 55102, 10792, 43834, 51984, 3387 | BWs: 13, 13, 5, 18, 3 MHz | First seen: 2011-08-15 | Last seen: 2011-02-08",
+      "color": "#6b7280"
+    },
+    {
+      "id": "812d5bc9-0643-4b8b-b9e3-09f83a97128e",
+      "lat": -20.46889032707594,
+      "lng": -90.9064286942542,
+      "label": "[Provider 212] | RAT: LTE | siteID: 36506 | Bands: 3, 38, 47 | Channels: 1329, 37905, 54900, 17524, 27221 | BWs: 10, 0, 0, 19, 8 MHz | First seen: 2011-10-12 | Last seen: 2011-06-30",
+      "color": "#6b7280"
+    },
+    {
+      "id": "56a7f7e9-b892-4dfd-9204-b6498eeb6e57",
+      "lat": 22.924609090770147,
+      "lng": 1.6976720288324998,
+      "label": "[Provider 212] | RAT: LTE | siteID: 6476 | Bands: 3, 46 | Channels: 11451, 1529, 35698, 26635, 54121 | BWs: 18, 19, 9, 5, 11 MHz | First seen: 2011-12-08 | Last seen: 2011-12-06",
+      "color": "#6b7280"
+    },
+    {
+      "id": "5e7e1be2-0fbf-4559-a0f6-f8c7ce1a4968",
+      "lat": -16.747866012819557,
+      "lng": -35.69608408268169,
+      "label": "[Provider 212] | RAT: LTE | siteID: 25231 | Bands: 42, 46, 9, 19 | Channels: 15096, 42561, 49895, 3887, 6012 | BWs: 17, 0, 18, 5, 13 MHz | First seen: 2011-12-29 | Last seen: 2011-03-14",
+      "color": "#6b7280"
+    },
+    {
+      "id": "3318095d-f7d5-4c63-8c3e-158d8ca32629",
+      "lat": 72.01509246759295,
+      "lng": 61.25604477695104,
+      "label": "[Provider 212] | RAT: LTE | siteID: 8789 | Bands: 1 | Channels: 17822, 59483, 450, 24860, 58752 | BWs: 14, 6, 8, 6, 9 MHz | First seen: 2011-08-13 | Last seen: 2011-02-11",
+      "color": "#6b7280"
+    },
+    {
+      "id": "ea0f0d0a-ce4a-495d-a7c2-e5b9a0ca5c39",
+      "lat": -48.53273416785382,
+      "lng": 1.4483962712386074,
+      "label": "[Provider 212] | RAT: LTE | siteID: 11766 | Bands: 4, 22 | Channels: 20513, 2077, 22037, 7027, 5676 | BWs: 11, 14, 3, 2, 5 MHz | First seen: 2011-09-15 | Last seen: 2011-03-01",
+      "color": "#6b7280"
+    },
+    {
+      "id": "adde5048-3428-4b31-b1c0-cec14886d7c8",
+      "lat": 33.8601958439732,
+      "lng": -27.230174949149415,
+      "label": "[Provider 212] | RAT: LTE | siteID: 11996 | Bands: 46, 44 | Channels: 32922, 18576, 52020, 31334, 46530 | BWs: 3, 8, 13, 13, 17 MHz | First seen: 2011-11-11 | Last seen: 2011-01-09",
+      "color": "#6b7280"
+    },
+    {
+      "id": "f553232e-289e-4704-927c-20c20c2c6541",
+      "lat": 69.47756835130625,
+      "lng": 24.785603335060642,
+      "label": "[Provider 212] | RAT: LTE | siteID: 22962 | Bands: 48, 46, 40 | Channels: 16157, 35203, 56321, 53980, 39347 | BWs: 12, 11, 9, 1, 3 MHz | First seen: 2011-04-16 | Last seen: 2011-09-05",
+      "color": "#6b7280"
+    },
+    {
+      "id": "9a65b18c-5654-4b31-bb10-de6cd3b06e64",
+      "lat": -11.96072331090717,
+      "lng": -173.01868455733705,
+      "label": "[Provider 212] | RAT: LTE | siteID: 20274 | Bands: 3, 46, 39 | Channels: 1304, 47918, 31313, 38305, 50420 | BWs: 15, 2, 4, 2, 5 MHz | First seen: 2011-02-25 | Last seen: 2011-09-15",
+      "color": "#6b7280"
+    },
+    {
+      "id": "f4b6c191-daea-4a7b-abb9-d19784fb8a5f",
+      "lat": 8.173907949367319,
+      "lng": 42.191912013810935,
+      "label": "[Provider 212] | RAT: LTE | siteID: 18458 | Bands: 3, 46 | Channels: 18504, 1257, 5442, 52636, 35027 | BWs: 0, 13, 10, 19, 4 MHz | First seen: 2011-09-24 | Last seen: 2011-07-05",
+      "color": "#6b7280"
+    },
+    {
+      "id": "20ea3931-219b-47b8-a262-5cf9ba5a5e8c",
+      "lat": 23.83665289138284,
+      "lng": -79.48863496300953,
+      "label": "[Provider 212] | RAT: LTE | siteID: 4750 | Bands: 46, 28, 47 | Channels: 53388, 22320, 9573, 55073, 27250 | BWs: 7, 1, 12, 10, 5 MHz | First seen: 2011-03-14 | Last seen: 2011-05-19",
+      "color": "#6b7280"
+    },
+    {
+      "id": "26306f3a-d6af-4efd-bf37-3d59fe71baa2",
+      "lat": -59.28305931364855,
+      "lng": -31.12672872439248,
+      "label": "[Provider 212] | RAT: NR | siteID: 31866 | Bands: 46, 36, 35, 42 | Channels: 47470, 37478, 59761, 36820, 42364 | BWs: 10, 13, 15, 4, 5 MHz | First seen: 2011-05-26 | Last seen: 2011-10-18",
+      "color": "#6b7280"
+    },
+    {
+      "id": "1cb2c439-dde2-4a60-94ba-49c752a4730f",
+      "lat": 26.249741032607893,
+      "lng": 149.64220991526358,
+      "label": "[Provider 212] | RAT: NR | siteID: 14692 | Bands: 46 | Channels: 27619, 52452, 22768, 26173, 47113 | BWs: 11, 15, 9, 4, 4 MHz | First seen: 2011-06-24 | Last seen: 2011-04-10",
+      "color": "#6b7280"
+    },
+    {
+      "id": "bd1d4337-5d2a-4af3-bdbf-1272e79eaaf3",
+      "lat": 28.355987268439208,
+      "lng": -167.305568920445,
+      "label": "[Provider 212] | RAT: NR | siteID: 33290 | Bands: 1, 2, 43 | Channels: 503, 831, 33802, 13210, 44433 | BWs: 8, 0, 16, 18, 4 MHz | First seen: 2011-01-31 | Last seen: 2011-04-24",
+      "color": "#6b7280"
+    },
+    {
+      "id": "96a9d705-afcc-457a-9554-97a53db62e82",
+      "lat": 23.226325255265138,
+      "lng": 46.226728932720135,
+      "label": "[Provider 212] | RAT: NR | siteID: 33555 | Bands: 46 | Channels: 22512, 46908, 58198, 28221, 30006 | BWs: 8, 18, 16, 2, 0 MHz | First seen: 2011-09-19 | Last seen: 2011-10-19",
+      "color": "#6b7280"
+    },
+    {
+      "id": "9b003b18-35fc-4b36-9ea5-706c4edfe5b6",
+      "lat": 70.11415758430786,
+      "lng": 72.45970154346787,
+      "label": "[Provider 212] | RAT: NR | siteID: 10539 | Bands: 5, 10 | Channels: 2403, 34641, 4540, 22357, 32837 | BWs: 6, 18, 18, 4, 12 MHz | First seen: 2011-11-02 | Last seen: 2011-12-08",
+      "color": "#6b7280"
+    },
+    {
+      "id": "1ff7deea-60c6-4744-89f3-786aeedeaeb7",
+      "lat": -84.08012958392726,
+      "lng": 179.99207261253804,
+      "label": "[Provider 212] | RAT: NR | siteID: 40909 | Bands: 19, 22, 3 | Channels: 28163, 6094, 6851, 17250, 1691 | BWs: 14, 14, 5, 2, 8 MHz | First seen: 2011-09-17 | Last seen: 2011-12-19",
+      "color": "#6b7280"
+    },
+    {
+      "id": "356389ba-66f4-4abb-96c1-2cbdbf594e1a",
+      "lat": -82.60403299857106,
+      "lng": -25.26179003126103,
+      "label": "[Provider 212] | RAT: NR | siteID: 21175 | Bands: 43 | Channels: 30491, 23120, 13658, 25402, 44885 | BWs: 16, 0, 19, 2, 14 MHz | First seen: 2011-03-06 | Last seen: 2011-01-04",
+      "color": "#6b7280"
+    },
+    {
+      "id": "344d7455-a2f8-48e2-9b06-f95a96e21cb8",
+      "lat": 19.649690531134382,
+      "lng": -119.51034087068865,
+      "label": "[Provider 212] | RAT: NR | siteID: 43529 | Bands: 3, 41, 6 | Channels: 57580, 1398, 39888, 2653, 16591 | BWs: 8, 15, 10, 3, 16 MHz | First seen: 2011-05-31 | Last seen: 2011-01-20",
+      "color": "#6b7280"
+    },
+    {
+      "id": "04dc7d49-4cf0-479f-b8df-719b5b76a5f8",
+      "lat": -13.234470280243315,
+      "lng": 16.111110316447338,
+      "label": "[Provider 212] | RAT: NR | siteID: 35670 | Bands: 39, 37, 18 | Channels: 38597, 56850, 37697, 5901, 21078 | BWs: 5, 0, 0, 5, 7 MHz | First seen: 2011-11-28 | Last seen: 2011-03-09",
+      "color": "#6b7280"
+    },
+    {
+      "id": "205a4ea5-0b0e-4693-89b7-8f84eda2daa1",
+      "lat": -39.23333631653762,
+      "lng": -63.00102920253886,
+      "label": "[Provider 212] | RAT: NR | siteID: 3398 | Bands: 48, 44, 42, 46 | Channels: 32760, 56458, 46309, 43545, 47779 | BWs: 12, 9, 8, 3, 1 MHz | First seen: 2011-07-08 | Last seen: 2011-01-28",
+      "color": "#6b7280"
+    },
+    {
+      "id": "5cf40e17-2e15-4d69-81c3-174526c96a5f",
+      "lat": -24.442183767449336,
+      "lng": 88.6814677478929,
+      "label": "[Provider 212] | RAT: NR | siteID: 292 | Bands: 6, 48, 41, 39 | Channels: 2748, 55406, 39791, 26864, 38515 | BWs: 2, 19, 11, 11, 9 MHz | First seen: 2011-08-04 | Last seen: 2011-06-01",
+      "color": "#6b7280"
+    },
+    {
+      "id": "4bed4768-4a4a-4db0-afc9-04e890c300f3",
+      "lat": 6.528040416959286,
+      "lng": -27.91760145750513,
+      "label": "[Provider 212] | RAT: NR | siteID: 29511 | Bands: 45, 22 | Channels: 28808, 46686, 35831, 57523, 7103 | BWs: 13, 11, 16, 19, 3 MHz | First seen: 2011-02-17 | Last seen: 2011-08-11",
+      "color": "#6b7280"
+    },
+    {
+      "id": "46c22c1d-f580-43e7-b538-f68c1650ecfe",
+      "lat": -60.77962925757228,
+      "lng": -106.23814628765228,
+      "label": "[Provider 212] | RAT: NR | siteID: 35065 | Bands: 38, 41 | Channels: 37797, 57703, 32302, 40362, 17983 | BWs: 12, 4, 19, 8, 2 MHz | First seen: 2011-06-16 | Last seen: 2011-08-16",
+      "color": "#6b7280"
+    },
+    {
+      "id": "3e350637-0d43-4567-835b-cf87e99a666d",
+      "lat": -42.11421958142205,
+      "lng": 83.83050269738415,
+      "label": "[Provider 212] | RAT: UMTS | siteID: 4178 | Bands: 44, 43, 42, 41 | Channels: 17348, 45690, 43701, 43173, 41028 | BWs: 11, 4, 0, 5, 17 MHz | First seen: 2011-06-06 | Last seen: 2011-02-01",
+      "color": "#6b7280"
+    },
+    {
+      "id": "42cab863-ebca-4a4c-8753-a414615441fa",
+      "lat": 11.384042549396227,
+      "lng": 74.12396104724361,
+      "label": "[Provider 212] | RAT: UMTS | siteID: 41808 | Bands: 1, 18, 41 | Channels: 32, 5980, 59576, 40312, 16993 | BWs: 8, 6, 12, 17, 17 MHz | First seen: 2011-08-15 | Last seen: 2011-10-05",
+      "color": "#6b7280"
+    },
+    {
+      "id": "dc48f1e9-7190-49c5-b01d-602eda096f3f",
+      "lat": 17.470860097405037,
+      "lng": 80.2538591491944,
+      "label": "[Provider 212] | RAT: UMTS | siteID: 8716 | Bands: 48 | Channels: 55749, 29706, 20682, 35166, 26615 | BWs: 2, 1, 8, 18, 0 MHz | First seen: 2011-12-16 | Last seen: 2011-01-28",
+      "color": "#6b7280"
+    },
+    {
+      "id": "a8a2b6af-c98a-4277-abe7-b70eb63d28e7",
+      "lat": -31.252205179140304,
+      "lng": -24.311836479121837,
+      "label": "[Provider 212] | RAT: UMTS | siteID: 18825 | Bands: 46 | Channels: 20958, 27744, 50929, 18410, 5585 | BWs: 14, 1, 2, 17, 15 MHz | First seen: 2011-06-27 | Last seen: 2011-08-21",
+      "color": "#6b7280"
+    },
+    {
+      "id": "41a0674a-debe-4b59-b972-23b1dfe09999",
+      "lat": 81.86908848075373,
+      "lng": -113.71929482662802,
+      "label": "[Provider 212] | RAT: UMTS | siteID: 4933 | Bands: 17, 46 | Channels: 5813, 33366, 56757, 14078, 48256 | BWs: 10, 14, 1, 18, 1 MHz | First seen: 2011-10-15 | Last seen: 2011-01-07",
+      "color": "#6b7280"
+    },
+    {
+      "id": "b035a506-7b91-4bc5-a39c-8f71faaffc7c",
+      "lat": -41.58466884104601,
+      "lng": -132.75257830657722,
+      "label": "[Provider 212] | RAT: GSM | siteID: 41100 | Bands: 46, 22, 42 | Channels: 50640, 26627, 6976, 32596, 43510 | BWs: 7, 5, 8, 6, 19 MHz | First seen: 2011-12-12 | Last seen: 2011-11-21",
+      "color": "#6b7280"
+    }
+  ],
+  "shapes": []
+}
