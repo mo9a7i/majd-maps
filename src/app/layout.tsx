@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans_Arabic } from "next/font/google";
+import { DirectionProvider } from "@/components/ui/direction"
+
 import "./globals.css";
 
 const ibmPlexSansArabic = IBM_Plex_Sans_Arabic({
@@ -15,28 +17,28 @@ export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
 
   title: {
-    default: "مجد مابس — خرائط تحترم خصوصيتك",
-    template: "%s | مجد مابس",
+    default: "رصد — خرائط تحترم خصوصيتك",
+    template: "%s | رصد",
   },
   description:
-    "تطبيق خرائط مفتوح المصدر يحترم خصوصيتك. لا قواعد بيانات، لا تتبع، لا إرسال بيانات — كل شيء يبقى داخل متصفحك.",
-  keywords: ["خرائط", "خصوصية", "مفتوح المصدر", "maps", "privacy", "open source", "GeoJSON", "KML"],
-  authors: [{ name: "6degrees technologies" }],
-  creator: "6degrees technologies",
+    "تطبيق رصد للخرائط — مفتوح المصدر يحترم خصوصيتك. لا قواعد بيانات، لا تتبع، لا إرسال بيانات — كل شيء يبقى داخل متصفحك.",
+  keywords: ["رصد", "خرائط", "خصوصية", "مفتوح المصدر", "maps", "privacy", "open source"],
+  authors: [{ name: "6 degrees technologies" }],
+  creator: "6 degrees technologies",
 
   openGraph: {
     type: "website",
     url: BASE_URL,
-    siteName: "مجد مابس",
-    title: "مجد مابس — خرائط تحترم خصوصيتك",
+    siteName: "رصد",
+    title: "رصد — خرائط تحترم خصوصيتك",
     description:
-      "تطبيق خرائط مفتوح المصدر يحترم خصوصيتك. لا قواعد بيانات، لا تتبع، لا إرسال بيانات — كل شيء يبقى داخل متصفحك.",
+      "تطبيق رصد للخرائط — مفتوح المصدر يحترم خصوصيتك. لا قواعد بيانات، لا تتبع، لا إرسال بيانات — كل شيء يبقى داخل متصفحك.",
     images: [
       {
         url: OG_IMAGE,
         width: 1200,
         height: 630,
-        alt: "مجد مابس — خريطة تفاعلية تحترم خصوصيتك",
+        alt: "رصد — خريطة تفاعلية تحترم خصوصيتك",
       },
     ],
     locale: "ar_SA",
@@ -44,9 +46,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "مجد مابس — خرائط تحترم خصوصيتك",
+    title: "رصد — خرائط تحترم خصوصيتك",
     description:
-      "تطبيق خرائط مفتوح المصدر يحترم خصوصيتك. لا قواعد بيانات، لا تتبع، لا إرسال بيانات — كل شيء يبقى داخل متصفحك.",
+      "تطبيق رصد للخرائط — مفتوح المصدر يحترم خصوصيتك. لا قواعد بيانات، لا تتبع، لا إرسال بيانات — كل شيء يبقى داخل متصفحك.",
     images: [OG_IMAGE],
   },
 
@@ -72,7 +74,7 @@ export default function RootLayout({
       className={`${ibmPlexSansArabic.variable} h-full antialiased`}
     >
       <body className="px-3 md:px-0 min-h-fu  ll flex flex-col font-[family-name:var(--font-ibm-plex-arabic)]">
-        {children}
+      <DirectionProvider direction="rtl">{children}</DirectionProvider>
       </body>
     </html>
   );

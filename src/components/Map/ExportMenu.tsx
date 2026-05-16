@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { useProject } from "@/lib/ProjectContext";
-import { exportJSON, exportGeoJSON, exportKML } from "@/lib/exporters";
+import { exportJSON, exportGeoJSON, exportKML, exportXLSX } from "@/lib/exporters";
 
 export default function ExportMenu() {
   const { exportProject } = useProject();
@@ -39,6 +39,14 @@ export default function ExportMenu() {
           onClick={() => exportKML(exportProject())}
         >
           <span>📍</span> حفظ كـ KML
+        </Button>
+        <Button
+          variant="outline"
+          size="sm"
+          className="w-full justify-start gap-2"
+          onClick={() => exportXLSX(exportProject())}
+        >
+          <span>📊</span> حفظ كـ Excel
         </Button>
       </div>
     </div>

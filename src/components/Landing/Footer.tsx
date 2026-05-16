@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-sm text-muted-foreground">
           تم التطوير بواسطة{" "}
-          <span className="font-medium text-foreground">6degrees technologies</span>
+          <span className="font-medium text-foreground">6 degrees technologies</span>
         </p>
         <nav className="flex items-center gap-6">
           {footerLinks.map((link) => (

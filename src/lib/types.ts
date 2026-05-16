@@ -4,6 +4,10 @@ export interface Marker {
   lng: number;
   label?: string;
   color: string;
+  company?: string;
+  iconType?: string;
+  dateAdded?: string;
+  dateEdited?: string;
 }
 
 export interface LineShape {
@@ -12,6 +16,8 @@ export interface LineShape {
   points: [number, number][];
   color: string;
   label?: string;
+  company?: string;
+  dateAdded?: string;
 }
 
 export interface PolygonShape {
@@ -20,14 +26,41 @@ export interface PolygonShape {
   points: [number, number][];
   color: string;
   label?: string;
+  company?: string;
+  dateAdded?: string;
 }
 
-export type Shape = LineShape | PolygonShape;
+export interface CircleShape {
+  id: string;
+  type: "circle";
+  lat: number;
+  lng: number;
+  radius: number;
+  color: string;
+  label?: string;
+  company?: string;
+  dateAdded?: string;
+}
+
+export type Shape = LineShape | PolygonShape | CircleShape;
+
+export interface EmailTemplate {
+  header: string;
+  body: string;
+  footer: string;
+  employeeName: string;
+  orgName: string;
+  /** Full list of configurable checklist items */
+  items: string[];
+  /** Indices (into items[]) that are currently checked */
+  selectedItems: number[];
+}
 
 export interface Project {
   version: string;
   markers: Marker[];
   shapes: Shape[];
+  emailTemplate?: EmailTemplate;
 }
 
 export const PROJECT_VERSION = "1.0.0";
@@ -44,3 +77,13 @@ export const MARKER_COLORS = [
 ] as const;
 
 export type MarkerColor = (typeof MARKER_COLORS)[number]["value"];
+
+export const ICON_TYPES = [
+  { id: "default", label: "افتراضي", emoji: "📍" },
+  { id: "tower",   label: "برج اتصالات", emoji: "📡" },
+  { id: "camera",  label: "كاميرا", emoji: "📷" },
+  { id: "car",     label: "سيارة", emoji: "🚗" },
+  { id: "person",  label: "شخص", emoji: "🧑" },
+] as const;
+
+export type IconTypeId = (typeof ICON_TYPES)[number]["id"];

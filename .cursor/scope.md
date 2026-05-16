@@ -161,7 +161,7 @@ Example structure:
 
 Footer text:
 
-* **"تم التطوير بواسطة 6degrees technologies"**
+* **"تم التطوير بواسطة 6 degrees technologies"**
 
 ---
 

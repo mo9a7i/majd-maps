@@ -1,106 +1,83 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { useProject } from "@/lib/ProjectContext";
-import { importGeoJSON, importKML, importProjectJSON } from "@/lib/importers";
-
-type ImportType = "geojson" | "kml" | "json";
+import { importXLSX } from "@/lib/importers";
 
 interface ImportDialogProps {
   onClose: () => void;
+  autoTrigger?: boolean;
 }
 
-export default function ImportDialog({ onClose }: ImportDialogProps) {
+export default function ImportDialog({ onClose, autoTrigger }: ImportDialogProps) {
   const { importProject } = useProject();
   const fileInputRef = useRef<HTMLInputElement>(null);
-  const [pending, setPending] = useState<ImportType | null>(null);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  function triggerImport(type: ImportType) {
-    setPending(type);
-    setError(null);
-    if (fileInputRef.current) {
-      fileInputRef.current.accept =
-        type === "geojson" ? ".geojson,.json" : type === "kml" ? ".kml,.xml" : ".json";
-      fileInputRef.current.click();
+  useEffect(() => {
+    if (autoTrigger) {
+      // Small delay so the sheet/DOM is ready before triggering the picker
+      const t = setTimeout(() => fileInputRef.current?.click(), 80);
+      return () => clearTimeout(t);
     }
+  }, [autoTrigger]);
+
+  function triggerImport() {
+    setError(null);
+    fileInputRef.current?.click();
   }
 
   async function handleFile(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
-    if (!file || !pending) return;
+    if (!file) {
+      // User dismissed picker without selecting — close the sheet
+      if (autoTrigger && !error) onClose();
+      return;
+    }
+    setLoading(true);
     try {
-      const text = await file.text();
-      let project;
-      if (pending === "geojson") {
-        project = importGeoJSON(JSON.parse(text));
-      } else if (pending === "kml") {
-        project = await importKML(text);
-      } else {
-        project = importProjectJSON(JSON.parse(text));
-      }
+      const buffer = await file.arrayBuffer();
+      const project = await importXLSX(buffer);
       importProject(project);
       onClose();
     } catch (err) {
       setError(err instanceof Error ? err.message : "حدث خطأ أثناء الاستيراد.");
     } finally {
-      // Reset so the same file can be re-selected
       if (fileInputRef.current) fileInputRef.current.value = "";
-      setPending(null);
+      setLoading(false);
     }
   }
 
   return (
     <div className="space-y-3">
-      <h3 className="font-semibold text-sm">استيراد ملف</h3>
-      <p className="text-xs text-muted-foreground">
-        اختر نوع الملف الذي تريد استيراده. سيتم دمج البيانات مع الخريطة الحالية.
-      </p>
-
       <input
         ref={fileInputRef}
         type="file"
+        accept=".xlsx,.xls"
         className="hidden"
         onChange={handleFile}
       />
 
-      <div className="space-y-2">
-        <Button
-          variant="outline"
-          size="sm"
-          className="w-full justify-start gap-2"
-          onClick={() => triggerImport("geojson")}
-        >
-          <span>📄</span> استيراد GeoJSON
-        </Button>
-        <Button
-          variant="outline"
-          size="sm"
-          className="w-full justify-start gap-2"
-          onClick={() => triggerImport("kml")}
-        >
-          <span>🗺️</span> استيراد KML
-        </Button>
-        <Button
-          variant="outline"
-          size="sm"
-          className="w-full justify-start gap-2"
-          onClick={() => triggerImport("json")}
-        >
-          <span>📁</span> استيراد JSON
-        </Button>
-      </div>
-
-      {error && (
-        <div className="rounded-lg bg-destructive/10 border border-destructive/30 p-3 text-xs text-destructive">
-          {error}
-        </div>
+      {loading && (
+        <p className="text-sm text-muted-foreground text-center py-2">جارٍ الاستيراد...</p>
       )}
 
-      <Button variant="ghost" size="sm" className="w-full" onClick={onClose}>
-        إلغاء
-      </Button>
+      {error && (
+        <>
+          <h3 className="font-semibold text-sm">خطأ في الاستيراد</h3>
+          <div className="rounded-lg bg-destructive/10 border border-destructive/30 p-3 text-xs text-destructive">
+            {error}
+          </div>
+          <Button variant="outline" size="sm" className="w-full gap-2" onClick={triggerImport}>
+            <span>📊</span> حاول مرة أخرى
+          </Button>
+          <Button variant="ghost" size="sm" className="w-full" onClick={onClose}>
+            إلغاء
+          </Button>
+        </>
+      )}
     </div>
   );
 }

@@ -1,3 +1,4 @@
+import * as XLSX from "xlsx";
 import type { Project, Marker, Shape } from "./types";
 
 function downloadBlob(content: string, filename: string, mimeType: string) {
@@ -31,6 +32,7 @@ function markerToFeature(m: Marker) {
 }
 
 function shapeToFeature(s: Shape) {
+  if (s.type === "circle") return null; // no GeoJSON for circles yet
   if (s.type === "line") {
     return {
       type: "Feature",
@@ -58,7 +60,7 @@ export function exportGeoJSON(project: Project) {
     type: "FeatureCollection",
     features: [
       ...project.markers.map(markerToFeature),
-      ...project.shapes.map(shapeToFeature),
+      ...project.shapes.map(shapeToFeature).filter(Boolean),
     ],
   };
   downloadBlob(JSON.stringify(geojson, null, 2), "majd-maps.geojson", "application/json");
@@ -83,6 +85,7 @@ function markerToKml(m: Marker) {
 }
 
 function shapeToKml(s: Shape) {
+  if (s.type === "circle") return ""; // no KML for circles yet
   if (s.type === "line") {
     const coords = s.points.map(([lat, lng]) => `${lng},${lat},0`).join(" ");
     return `    <Placemark>
@@ -98,6 +101,104 @@ function shapeToKml(s: Shape) {
     </Placemark>`;
   }
 }
+
+// ─── XLSX ─────────────────────────────────────────────────────────────────────
+
+// Arabic column headers — English aliases handled in importer for back-compat
+type XlsxRow = {
+  "النوع": string;
+  "العنوان": string;
+  "خط العرض": number | "";
+  "خط الطول": number | "";
+  "الشركة": string;
+  "نوع الأيقونة": string;
+  "اللون": string;
+  "تاريخ الإضافة": string;
+  "تاريخ التعديل": string;
+  "نصف القطر": number | "";
+  "الإحداثيات": string;
+};
+
+export function exportXLSX(project: Project) {
+  const today = new Date().toISOString().split("T")[0];
+  const rows: XlsxRow[] = [];
+
+  for (const m of project.markers) {
+    rows.push({
+      "النوع": "marker",
+      "العنوان": m.label ?? "",
+      "خط العرض": m.lat,
+      "خط الطول": m.lng,
+      "الشركة": m.company ?? "",
+      "نوع الأيقونة": m.iconType ?? "default",
+      "اللون": m.color,
+      "تاريخ الإضافة": m.dateAdded ?? today,
+      "تاريخ التعديل": m.dateEdited ?? "",
+      "نصف القطر": "",
+      "الإحداثيات": "",
+    });
+  }
+
+  for (const s of project.shapes) {
+    if (s.type === "circle") {
+      rows.push({
+        "النوع": "circle",
+        "العنوان": s.label ?? "",
+        "خط العرض": s.lat,
+        "خط الطول": s.lng,
+        "الشركة": s.company ?? "",
+        "نوع الأيقونة": "",
+        "اللون": s.color,
+        "تاريخ الإضافة": s.dateAdded ?? "",
+        "تاريخ التعديل": "",
+        "نصف القطر": s.radius,
+        "الإحداثيات": "",
+      });
+    } else {
+      rows.push({
+        "النوع": s.type,
+        "العنوان": s.label ?? "",
+        "خط العرض": "",
+        "خط الطول": "",
+        "الشركة": s.company ?? "",
+        "نوع الأيقونة": "",
+        "اللون": s.color,
+        "تاريخ الإضافة": s.dateAdded ?? "",
+        "تاريخ التعديل": "",
+        "نصف القطر": "",
+        "الإحداثيات": JSON.stringify(s.points),
+      });
+    }
+  }
+
+  const ws = XLSX.utils.json_to_sheet(rows);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, "Data");
+
+  // Templates sheet — key/value rows (Arabic keys)
+  const tpl = project.emailTemplate;
+  const tplRows = [
+    { المفتاح: "الرأس",            القيمة: tpl?.header ?? "" },
+    { المفتاح: "النص",             القيمة: tpl?.body ?? "" },
+    { المفتاح: "الذيل",            القيمة: tpl?.footer ?? "" },
+    { المفتاح: "اسم_الموظف",       القيمة: tpl?.employeeName ?? "" },
+    { المفتاح: "اسم_المنظمة",      القيمة: tpl?.orgName ?? "" },
+    { المفتاح: "البنود", القيمة: (tpl?.items ?? []).join(",") },
+  ];
+  XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(tplRows), "Templates");
+
+  const buf = XLSX.write(wb, { type: "array", bookType: "xlsx" });
+  const blob = new Blob([buf], {
+    type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "rasad.xlsx";
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
 
 export function exportKML(project: Project) {
   const placemarks = [
