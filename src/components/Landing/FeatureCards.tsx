@@ -1,10 +1,10 @@
 import {
   ShieldCheck,
-  MonitorSmartphone,
+  FileSpreadsheet,
   ServerOff,
-  HardDrive,
-  Code2,
-  Zap,
+  SlidersHorizontal,
+  Mail,
+  MapPin,
 } from "lucide-react";
 
 export default function FeatureCards() {
@@ -15,49 +15,49 @@ export default function FeatureCards() {
 
           <div className="aspect-square flex flex-col justify-center items-center bg-linear-to-br from-blue-950 to-blue-900 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow text-white">
             <ShieldCheck className="mb-4 h-7 w-7 md:h-12 md:w-12 lg:h-16 lg:w-16 text-white" strokeWidth={1.75} />
-            <h3 className="text-lg md:text-3xl font-semibold mb-2">خصوصية أولاً</h3>
+            <h3 className="text-lg md:text-3xl font-semibold mb-2">خصوصية حقيقية</h3>
             <p className="text-sm md:text-lg leading-relaxed">
-              تصميم التطبيق يضع خصوصيتك في المرتبة الأولى بلا تنازلات.
+              لا خوادم، لا قواعد بيانات، لا تتبع. بياناتك تعيش في متصفحك فقط.
             </p>
           </div>
 
           <div className="aspect-square flex flex-col justify-center items-center bg-linear-to-br from-gray-100 to-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow text-gray-950">
-            <MonitorSmartphone className="mb-4 h-7 w-7 md:h-12 md:w-12 lg:h-16 lg:w-16  " strokeWidth={1.75} />
-            <h3 className="text-lg md:text-3xl font-semibold mb-2">كل شيء داخل المتصفح</h3>
+            <FileSpreadsheet className="mb-4 h-7 w-7 md:h-12 md:w-12 lg:h-16 lg:w-16" strokeWidth={1.75} />
+            <h3 className="text-lg md:text-3xl font-semibold mb-2">استيراد وتصدير XLSX</h3>
             <p className="text-sm md:text-lg leading-relaxed">
-              بياناتك لا تغادر جهازك. كل المعالجة تتم محلياً في متصفحك.
+              صدّر نقاطك وأشكالك وإعدادات القوالب في ملف إكسل واحد، واستورده لاحقاً بنقرة واحدة.
             </p>
           </div>
 
           <div className="aspect-square flex flex-col justify-center items-center bg-linear-to-br from-blue-950 to-blue-900 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow text-white">
-            <ServerOff className="mb-4 h-7 w-7 md:h-12 md:w-12 lg:h-16 lg:w-16 " strokeWidth={1.75} />
-            <h3 className="text-lg md:text-3xl font-semibold mb-2">لا توجد قاعدة بيانات</h3>
+            <ServerOff className="mb-4 h-7 w-7 md:h-12 md:w-12 lg:h-16 lg:w-16" strokeWidth={1.75} />
+            <h3 className="text-lg md:text-3xl font-semibold mb-2">بحث دائري تفاعلي</h3>
             <p className="text-sm md:text-lg leading-relaxed">
-              لا خوادم، لا قواعد بيانات، لا تخزين خارجي من أي نوع.
+              ارسم دائرة بحث بنطاق حر، احفظها، وشاهد العناصر الداخلة فيها مباشرة في القائمة.
             </p>
           </div>
 
           <div className="aspect-square flex flex-col justify-center items-center bg-linear-to-br from-gray-100 to-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow text-gray-950">
-            <HardDrive className="mb-4 h-7 w-7 md:h-12 md:w-12 lg:h-16 lg:w-16 " strokeWidth={1.75} />
-            <h3 className="text-lg md:text-3xl font-semibold mb-2">حفظ محلي عند الحاجة</h3>
+            <SlidersHorizontal className="mb-4 h-7 w-7 md:h-12 md:w-12 lg:h-16 lg:w-16" strokeWidth={1.75} />
+            <h3 className="text-lg md:text-3xl font-semibold mb-2">فلترة متعددة المستويات</h3>
             <p className="text-sm md:text-lg leading-relaxed">
-              عند الحاجة، احفظ مشروعك كملف على جهازك واستورده لاحقاً.
+              فلتر بنوع العنصر والشركة ونوع الأيقونة — والخريطة تتزامن لتُخفي ما لا يطابق.
             </p>
           </div>
 
           <div className="aspect-square flex flex-col justify-center items-center bg-linear-to-br from-blue-950 to-blue-900 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow text-white">
-            <Code2 className="mb-4 h-7 w-7 md:h-12 md:w-12 lg:h-16 lg:w-16 " strokeWidth={1.75} />
-            <h3 className="text-lg md:text-3xl font-semibold mb-2">مفتوح المصدر</h3>
+            <Mail className="mb-4 h-7 w-7 md:h-12 md:w-12 lg:h-16 lg:w-16" strokeWidth={1.75} />
+            <h3 className="text-lg md:text-3xl font-semibold mb-2">قوالب البريد الإلكتروني</h3>
             <p className="text-sm md:text-lg leading-relaxed">
-              الكود متاح للجميع للمراجعة والتحقق من وعودنا الأمنية.
+              أنشئ قالب بريد بمتغيرات ديناميكية، ومعاينة فورية لكل شركة داخل نطاق البحث.
             </p>
           </div>
 
           <div className="aspect-square flex flex-col justify-center items-center bg-linear-to-br from-gray-100 to-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow text-gray-950">
-            <Zap className="mb-4 h-7 w-7 md:h-12 md:w-12 lg:h-16 lg:w-16 " strokeWidth={1.75} />
-            <h3 className="text-lg md:text-3xl font-semibold mb-2">بسيط وخفيف</h3>
+            <MapPin className="mb-4 h-7 w-7 md:h-12 md:w-12 lg:h-16 lg:w-16" strokeWidth={1.75} />
+            <h3 className="text-lg md:text-3xl font-semibold mb-2">نقاط بأيقونات مخصصة</h3>
             <p className="text-sm md:text-lg leading-relaxed">
-              واجهة نظيفة وسريعة دون تضخيم أو تعقيد غير ضروري.
+              اختر أيقونة لكل نقطة (برج، كاميرا، سيارة، شخص) تُعرض بنفس الشكل على الخريطة وفي القائمة.
             </p>
           </div>
 

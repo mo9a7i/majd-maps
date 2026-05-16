@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# رصد — منصة الخرائط الميدانية
 
-## Getting Started
+> أداة خرائط تعمل بالكامل داخل المتصفح، مصممة لفرق العمل الميداني التي تحتاج إلى رصد المواقع وتنظيمها وإعداد تقاريرها دون الاعتماد على أي خادم أو قاعدة بيانات.
 
-First, run the development server:
+---
+
+## الميزات الرئيسية
+
+### إدارة المواقع والأشكال
+- **إضافة نقاط** — انقر على الخريطة لتثبيت نقطة ثم أدخل التفاصيل (اسم، منظمة، نوع الأيقونة، لون، تاريخ)
+- **أنواع الأيقونات** — برج اتصالات، كاميرا، سيارة، شخص، أو افتراضي — تُعرض على الخريطة والقائمة بنفس الأيقونة
+- **رسم الأشكال** — خطوط ومضلعات ودوائر بحث مع حقول عنوان وشركة ولون
+- **دائرة البحث** — انقر بزر الفأرة الأيمن على أي نقطة في الخريطة وارسم دائرة بحث بنطاق قابل للتعديل (شريط تمرير + إدخال يدوي للإحداثيات)
+
+### قائمة العناصر الموحدة
+- قائمة جانبية تجمع النقاط والخطوط والمضلعات والدوائر في مكان واحد
+- **ترتيب بالمسافة** — العناصر مرتبة تلقائياً من الأقرب إلى مركز الخريطة الحالي
+- **فلترة متعددة المستويات** — نوع العنصر (نقاط / خطوط / مضلعات / دوائر) + نوع الأيقونة + اسم الشركة (مع خيار "بلا منظمة")
+- **مزامنة الخريطة مع الفلاتر** — عند الفلترة، تختفي العناصر غير المطابقة من الخريطة تلقائياً
+- **تمييز التمرير** — عند تمرير المؤشر فوق عنصر في القائمة، يبرز على الخريطة وتخفت العناصر الأخرى
+- النقر على عنصر في القائمة يحرك الخريطة إليه دون تغيير مستوى التكبير
+
+### دائرة البحث المتقدمة
+- انقر على دائرة محفوظة لعرض القائمة مفلترة بالعناصر الموجودة داخلها
+- **قالب البريد الإلكتروني** — يظهر زر خاص عند تفعيل فلتر الدائرة، يفتح نافذة ثلاثية الأقسام:
+  - قائمة بنود قابلة للإضافة والحذف والتعديل
+  - حقول القالب (رأس، نص، ذيل، موظف، منظمة) تدعم متغيرات `{{company}}` `{{employee}}` `{{towers_list}}`...
+  - معاينة فورية مع دعم تبويبات لكل شركة داخل الدائرة وزر نسخ
+
+### الاستيراد والتصدير (XLSX)
+- تصدير جميع البيانات (نقاط + أشكال) في ورقة **Data** بعناوين عربية
+- تصدير إعدادات قوالب البريد في ورقة **Templates**
+- استيراد يقبل العناوين العربية والإنجليزية معاً (توافق مع الإصدارات القديمة)
+- الأيقونة الافتراضية والألوان تُعيَّن تلقائياً إذا كانت مفقودة
+
+### قائمة السياق (زر الفأرة الأيمن)
+- على نقطة أو شكل: تعرض معلومات العنصر الكاملة + خيارات تعديل/حذف
+- على منطقة فارغة: خيارات إضافة نقطة، نسخ الإحداثيات، بحث في المنطقة
+
+### الخريطة
+- تعريب كامل لأدوات الرسم (leaflet-draw)
+- لا زر تعديل ولا زر حذف على شريط الرسم (مُزال)
+- الإحداثيات تُملأ تلقائياً عند النقر على الخريطة
+
+---
+
+## المكدس التقني
+
+| المكتبة | الاستخدام |
+|---------|-----------|
+| Next.js (App Router) | إطار عمل React |
+| Leaflet + leaflet-draw | الخرائط التفاعلية والرسم |
+| OpenStreetMap | مصدر بيانات الخرائط |
+| shadcn/ui + Tailwind CSS | واجهة المستخدم |
+| SheetJS (xlsx) | استيراد وتصدير XLSX |
+| Lucide React | الأيقونات |
+| IBM Plex Sans Arabic | الخط |
+
+---
+
+## التشغيل المحلي
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+git clone https://github.com/mo9a7i/majd-maps
+cd majd-maps
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+افتح `http://localhost:3000` في المتصفح.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## النشر على GitHub Pages
 
-## Learn More
+يكتشف ملف `next.config.ts` بيئة `GITHUB_ACTIONS` تلقائياً ويضبط `basePath` و`assetPrefix` بدون أي تعديل يدوي.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## الخصوصية
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- لا خوادم، لا قواعد بيانات، لا تخزين خارجي
+- جميع البيانات تعيش في ذاكرة المتصفح فقط
+- الخريطة محملة من OpenStreetMap (لا يرى بياناتك)
+- مفتوح المصدر بالكامل للمراجعة والتحقق
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## المساهمة
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+نرحب بالـ Issues والـ Pull Requests عبر [github.com/mo9a7i/majd-maps](https://github.com/mo9a7i/majd-maps).
